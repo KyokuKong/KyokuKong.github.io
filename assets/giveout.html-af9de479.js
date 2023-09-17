@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-01d8ec57","path":"/docs/main/giveout.html","title":"配布须知","lang":"en-US","frontmatter":{"title":"配布须知","date":"2023.9.15"},"headers":[],"git":{},"filePathRelative":"docs/main/giveout.md"}');export{t as data};
