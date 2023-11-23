@@ -31,6 +31,7 @@ const RAW_RUNTIME_STATE =
           ["aplayer", "npm:1.10.1"],\
           ["hls.js", "npm:1.4.12"],\
           ["less", "npm:4.2.0"],\
+          ["sass", "npm:1.69.5"],\
           ["vue", "virtual:4c2943d1f727866078dc6773e62613aeb00e91b85f47117a46ca2be8f82c6942ffcd2fcb6e17b6d473feb6033c80c7c3a3bb56278a273fa308ebc7a3de851caf#npm:3.3.8"],\
           ["vuepress", "npm:2.0.0-rc.0"],\
           ["vuepress-plugin-components", "virtual:a86905bb6bdeaa342f391829edd7c9c18fe7619fe13d0f4126b71b186928b13446b0be32841b9fd2b146e8627aceb5bad0bed4df16850c4046bc07d75b95dce0#npm:2.0.0-rc.0"],\
@@ -112,7 +113,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/traverse", "npm:7.23.4"],\
           ["@babel/types", "npm:7.23.4"],\
           ["convert-source-map", "npm:2.0.0"],\
-          ["debug", "virtual:9a5f9b088a12c1e5d852ba2da23aa64e83017d9f2c7300443f36a6aa24a5688ab74d4698e6c3908b8ccd9fb08c96a921e02d3e807b9bfa0f098362f8b1c823ba#npm:4.3.4"],\
+          ["debug", "virtual:4b12ba5111caf7e8338099bdbc7cb046a9f8e079a44e74d0c03dca469876e3071ebbe671c5e90ae6b78ae33e22c205fa5ed32169a4aabd1404b13c56d09986e1#npm:4.3.4"],\
           ["gensync", "npm:1.0.0-beta.2"],\
           ["json5", "npm:2.2.3"],\
           ["semver", "npm:6.3.1"]\
@@ -239,7 +240,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/helper-compilation-targets", "npm:7.22.15"],\
           ["@babel/helper-plugin-utils", "npm:7.22.5"],\
           ["@types/babel__core", null],\
-          ["debug", "virtual:9a5f9b088a12c1e5d852ba2da23aa64e83017d9f2c7300443f36a6aa24a5688ab74d4698e6c3908b8ccd9fb08c96a921e02d3e807b9bfa0f098362f8b1c823ba#npm:4.3.4"],\
+          ["debug", "virtual:4b12ba5111caf7e8338099bdbc7cb046a9f8e079a44e74d0c03dca469876e3071ebbe671c5e90ae6b78ae33e22c205fa5ed32169a4aabd1404b13c56d09986e1#npm:4.3.4"],\
           ["lodash.debounce", "npm:4.0.8"],\
           ["resolve", "patch:resolve@npm%3A1.22.8#optional!builtin<compat/resolve>::version=1.22.8&hash=c3c19d"]\
         ],\
@@ -2335,7 +2336,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/helper-split-export-declaration", "npm:7.22.6"],\
           ["@babel/parser", "npm:7.23.4"],\
           ["@babel/types", "npm:7.23.4"],\
-          ["debug", "virtual:9a5f9b088a12c1e5d852ba2da23aa64e83017d9f2c7300443f36a6aa24a5688ab74d4698e6c3908b8ccd9fb08c96a921e02d3e807b9bfa0f098362f8b1c823ba#npm:4.3.4"],\
+          ["debug", "virtual:4b12ba5111caf7e8338099bdbc7cb046a9f8e079a44e74d0c03dca469876e3071ebbe671c5e90ae6b78ae33e22c205fa5ed32169a4aabd1404b13c56d09986e1#npm:4.3.4"],\
           ["globals", "npm:11.12.0"]\
         ],\
         "linkType": "HARD"\
@@ -4162,7 +4163,7 @@ const RAW_RUNTIME_STATE =
           ["@types/fs-extra", "npm:11.0.4"],\
           ["@types/hash-sum", "npm:1.0.2"],\
           ["@vuepress/shared", "npm:2.0.0-rc.0"],\
-          ["debug", "virtual:9a5f9b088a12c1e5d852ba2da23aa64e83017d9f2c7300443f36a6aa24a5688ab74d4698e6c3908b8ccd9fb08c96a921e02d3e807b9bfa0f098362f8b1c823ba#npm:4.3.4"],\
+          ["debug", "virtual:4b12ba5111caf7e8338099bdbc7cb046a9f8e079a44e74d0c03dca469876e3071ebbe671c5e90ae6b78ae33e22c205fa5ed32169a4aabd1404b13c56d09986e1#npm:4.3.4"],\
           ["fs-extra", "npm:11.1.1"],\
           ["globby", "npm:14.0.0"],\
           ["hash-sum", "npm:2.0.0"],\
@@ -4228,7 +4229,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/agent-base-npm-7.1.0-4b12ba5111-10c0.zip/node_modules/agent-base/",\
         "packageDependencies": [\
           ["agent-base", "npm:7.1.0"],\
-          ["debug", "virtual:9a5f9b088a12c1e5d852ba2da23aa64e83017d9f2c7300443f36a6aa24a5688ab74d4698e6c3908b8ccd9fb08c96a921e02d3e807b9bfa0f098362f8b1c823ba#npm:4.3.4"]\
+          ["debug", "virtual:4b12ba5111caf7e8338099bdbc7cb046a9f8e079a44e74d0c03dca469876e3071ebbe671c5e90ae6b78ae33e22c205fa5ed32169a4aabd1404b13c56d09986e1#npm:4.3.4"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5034,12 +5035,12 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:7773d3d8c8e20cea0909786d08a38caef5731c9f1721e5df9bb29f8022d967a92783ae95d84bb235562e664e13ae2778b25fe11f19a0ebe520feeb13b3a0a0b9#npm:3.2.7", {\
-        "packageLocation": "./.yarn/__virtual__/debug-virtual-8895397b1d/4/AppData/Local/Yarn/Berry/cache/debug-npm-3.2.7-754e818c7a-10c0.zip/node_modules/debug/",\
+      ["virtual:4b12ba5111caf7e8338099bdbc7cb046a9f8e079a44e74d0c03dca469876e3071ebbe671c5e90ae6b78ae33e22c205fa5ed32169a4aabd1404b13c56d09986e1#npm:4.3.4", {\
+        "packageLocation": "./.yarn/__virtual__/debug-virtual-ede24543b9/4/AppData/Local/Yarn/Berry/cache/debug-npm-4.3.4-4513954577-10c0.zip/node_modules/debug/",\
         "packageDependencies": [\
-          ["debug", "virtual:7773d3d8c8e20cea0909786d08a38caef5731c9f1721e5df9bb29f8022d967a92783ae95d84bb235562e664e13ae2778b25fe11f19a0ebe520feeb13b3a0a0b9#npm:3.2.7"],\
+          ["debug", "virtual:4b12ba5111caf7e8338099bdbc7cb046a9f8e079a44e74d0c03dca469876e3071ebbe671c5e90ae6b78ae33e22c205fa5ed32169a4aabd1404b13c56d09986e1#npm:4.3.4"],\
           ["@types/supports-color", null],\
-          ["ms", "npm:2.1.3"],\
+          ["ms", "npm:2.1.2"],\
           ["supports-color", null]\
         ],\
         "packagePeers": [\
@@ -5048,12 +5049,12 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:9a5f9b088a12c1e5d852ba2da23aa64e83017d9f2c7300443f36a6aa24a5688ab74d4698e6c3908b8ccd9fb08c96a921e02d3e807b9bfa0f098362f8b1c823ba#npm:4.3.4", {\
-        "packageLocation": "./.yarn/__virtual__/debug-virtual-fa4963df81/4/AppData/Local/Yarn/Berry/cache/debug-npm-4.3.4-4513954577-10c0.zip/node_modules/debug/",\
+      ["virtual:7773d3d8c8e20cea0909786d08a38caef5731c9f1721e5df9bb29f8022d967a92783ae95d84bb235562e664e13ae2778b25fe11f19a0ebe520feeb13b3a0a0b9#npm:3.2.7", {\
+        "packageLocation": "./.yarn/__virtual__/debug-virtual-8895397b1d/4/AppData/Local/Yarn/Berry/cache/debug-npm-3.2.7-754e818c7a-10c0.zip/node_modules/debug/",\
         "packageDependencies": [\
-          ["debug", "virtual:9a5f9b088a12c1e5d852ba2da23aa64e83017d9f2c7300443f36a6aa24a5688ab74d4698e6c3908b8ccd9fb08c96a921e02d3e807b9bfa0f098362f8b1c823ba#npm:4.3.4"],\
+          ["debug", "virtual:7773d3d8c8e20cea0909786d08a38caef5731c9f1721e5df9bb29f8022d967a92783ae95d84bb235562e664e13ae2778b25fe11f19a0ebe520feeb13b3a0a0b9#npm:3.2.7"],\
           ["@types/supports-color", null],\
-          ["ms", "npm:2.1.2"],\
+          ["ms", "npm:2.1.3"],\
           ["supports-color", null]\
         ],\
         "packagePeers": [\
@@ -5967,7 +5968,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["http-proxy-agent", "npm:7.0.0"],\
           ["agent-base", "npm:7.1.0"],\
-          ["debug", "virtual:9a5f9b088a12c1e5d852ba2da23aa64e83017d9f2c7300443f36a6aa24a5688ab74d4698e6c3908b8ccd9fb08c96a921e02d3e807b9bfa0f098362f8b1c823ba#npm:4.3.4"]\
+          ["debug", "virtual:4b12ba5111caf7e8338099bdbc7cb046a9f8e079a44e74d0c03dca469876e3071ebbe671c5e90ae6b78ae33e22c205fa5ed32169a4aabd1404b13c56d09986e1#npm:4.3.4"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5978,7 +5979,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["https-proxy-agent", "npm:7.0.2"],\
           ["agent-base", "npm:7.1.0"],\
-          ["debug", "virtual:9a5f9b088a12c1e5d852ba2da23aa64e83017d9f2c7300443f36a6aa24a5688ab74d4698e6c3908b8ccd9fb08c96a921e02d3e807b9bfa0f098362f8b1c823ba#npm:4.3.4"]\
+          ["debug", "virtual:4b12ba5111caf7e8338099bdbc7cb046a9f8e079a44e74d0c03dca469876e3071ebbe671c5e90ae6b78ae33e22c205fa5ed32169a4aabd1404b13c56d09986e1#npm:4.3.4"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8033,7 +8034,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["socks-proxy-agent", "npm:8.0.2"],\
           ["agent-base", "npm:7.1.0"],\
-          ["debug", "virtual:9a5f9b088a12c1e5d852ba2da23aa64e83017d9f2c7300443f36a6aa24a5688ab74d4698e6c3908b8ccd9fb08c96a921e02d3e807b9bfa0f098362f8b1c823ba#npm:4.3.4"],\
+          ["debug", "virtual:4b12ba5111caf7e8338099bdbc7cb046a9f8e079a44e74d0c03dca469876e3071ebbe671c5e90ae6b78ae33e22c205fa5ed32169a4aabd1404b13c56d09986e1#npm:4.3.4"],\
           ["socks", "npm:2.7.1"]\
         ],\
         "linkType": "HARD"\
@@ -9678,6 +9679,7 @@ const RAW_RUNTIME_STATE =
           ["aplayer", "npm:1.10.1"],\
           ["hls.js", "npm:1.4.12"],\
           ["less", "npm:4.2.0"],\
+          ["sass", "npm:1.69.5"],\
           ["vue", "virtual:4c2943d1f727866078dc6773e62613aeb00e91b85f47117a46ca2be8f82c6942ffcd2fcb6e17b6d473feb6033c80c7c3a3bb56278a273fa308ebc7a3de851caf#npm:3.3.8"],\
           ["vuepress", "npm:2.0.0-rc.0"],\
           ["vuepress-plugin-components", "virtual:a86905bb6bdeaa342f391829edd7c9c18fe7619fe13d0f4126b71b186928b13446b0be32841b9fd2b146e8627aceb5bad0bed4df16850c4046bc07d75b95dce0#npm:2.0.0-rc.0"],\
