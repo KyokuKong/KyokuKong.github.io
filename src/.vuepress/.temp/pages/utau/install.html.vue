@@ -21,6 +21,7 @@ MacOS我也想讲，奈何买不起Mac（泪目）</p>
 <p>由于一些一言难尽的原因，直接通过官网或者release下载安装程序有时候速度会相当悲惨。</p>
 <p>如果你在尝试过使用多线程下载器等方式后仍然不能正常的进行下载，我也提供了<strong>云盘版本</strong>。</p>
 <p>云盘版本可能会无法马上跟进每次更新，当前云盘版本为0.1.158。</p>
+<p>-- &gt; <a href="https://www.123pan.com/s/GTS0Vv-EpHod.html" target="_blank" rel="noopener noreferrer">123网盘<ExternalLinkIcon/></a></p>
 </div>
 </div></template>
 
