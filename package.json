@@ -24,5 +24,6 @@
     "@moefy-canvas/theme-sparkler": "^0.5.2",
     "aplayer": "^1.10.1",
     "hls.js": "^1.4.12"
-  }
+  },
+  "packageManager": "yarn@4.0.2"
 }
