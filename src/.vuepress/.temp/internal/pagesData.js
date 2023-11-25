@@ -7,6 +7,8 @@ export const pagesData = {
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
   // path: /docs/main.html
   "v-fb9569b6": () => import(/* webpackChunkName: "v-fb9569b6" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/docs/main.html.js").then(({ data }) => data),
+  // path: /utau/basic.html
+  "v-36173dce": () => import(/* webpackChunkName: "v-36173dce" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/utau/basic.html.js").then(({ data }) => data),
   // path: /utau/flags.html
   "v-6c4c99d6": () => import(/* webpackChunkName: "v-6c4c99d6" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/utau/flags.html.js").then(({ data }) => data),
   // path: /utau/from.html
@@ -37,6 +39,4 @@ export const pagesData = {
   "v-154dc4c4": () => import(/* webpackChunkName: "v-154dc4c4" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/star/index.html.js").then(({ data }) => data),
   // path: /timeline/
   "v-01560935": () => import(/* webpackChunkName: "v-01560935" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/timeline/index.html.js").then(({ data }) => data),
-  // path: /utau/basic.html
-  "v-36173dce": () => import(/* webpackChunkName: "v-36173dce" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/utau/basic.html.js").then(({ data }) => data),
 }

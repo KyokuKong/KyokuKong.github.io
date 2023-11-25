@@ -39,7 +39,7 @@ MacOS我也想讲，奈何买不起Mac（泪目）</p>
 <p>使用偏好中有几个设置项目的分类，我们在这里分别进行讲解。</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>配置的部分很长很无聊，你可以先自己看看里面的配置，大多其实你一眼就能看出来要怎么使用，如果有什么不明白的再看下文里的内容对着找，如果没有问题那么你可以直接跳过下面的配置部分去看基础操作。</p>
+<p>配置的部分很长很无聊，你可以先自己看看里面的配置，大多其实你一眼就能看出来要怎么使用，如果有什么不明白的再看下文里的内容对着找，如果没有问题那么你可以直接跳过下面的配置部分去看<a href="/utau/basic">基础操作</a>。</p>
 </div>
 <h3 id="回放" tabindex="-1"><a class="header-anchor" href="#回放" aria-hidden="true">#</a> 回放</h3>
 <figure><img src="@source/.vuepress/public/playback_settings.png" alt=" " tabindex="0" loading="lazy"><figcaption> </figcaption></figure>
@@ -53,7 +53,22 @@ MacOS我也想讲，奈何买不起Mac（泪目）</p>
 <p>如果你使用整页滚动，那么播放标记超出正在显示的范围时，编辑器会自动滑动一页的距离使播放标记回到到编辑器的最左侧。</p>
 <p>如果你启用了<code v-pre>固定播放标记</code>选项，那么你可以通过下面的<code v-pre>自动滚动边界</code>滑条来设置播放标记会被固定在什么位置。（滑条的数值即为播放标记会被固定在编辑器从左到右百分比的位置，例如默认的0.9就是会被固定在界面宽度从左到右90%的位置）</p>
 <h3 id="路径" tabindex="-1"><a class="header-anchor" href="#路径" aria-hidden="true">#</a> 路径</h3>
+<figure><img src="@source/.vuepress/public/path.png" alt=" " tabindex="0" loading="lazy"><figcaption> </figcaption></figure>
+<p>默认来讲，声库会在安装后被放在OpenUtau的<strong>Singers</strong>文件夹中，但是你也可以在这里设置额外的路径，OpenUtau也会在启动时读取这个路径中的声库（例如你的电脑上已经安装过Utau并且在Utau中设置过声库，你就可以把这个路径设置成Utau的声库路径，就可以和Utau共用声库了）。</p>
+<p>其下的安装至<code v-pre>额外歌手路径</code>这一选项，用于配置是否会把新安装的声库（使用OpenUtau的拖放来进行安装或者安装歌手来进行安装）安装到上面设置的路径里，如果上面的额外路径没有配置那么不论这个选项是否有配置过都会直接安装在Singers文件夹中，这个选项的默认值是<code v-pre>开</code>，但是如果你没有<u>把声库安装外置的需求或者不需要和Utau共享声库文件夹</u>，那么我其实建议你把这个选项关闭（<s>虽然具体关不关其实并没有什么意义，因为你设置了大概率就是想要用来外置声库</s>）</p>
 <h3 id="渲染" tabindex="-1"><a class="header-anchor" href="#渲染" aria-hidden="true">#</a> 渲染</h3>
+<figure><img src="@source/.vuepress/public/render.png" alt=" " tabindex="0" loading="lazy"><figcaption> </figcaption></figure>
+<p><strong>预渲染</strong>这一选项主要控制是否进行预渲染，也就是在你不进行预览播放时是否提前渲染音频，如果启用这个选项（默认选项）那么编辑器会自动在你不进行播放的时候渲染所有轨道的音频，且你的每次操作之后也都会自动渲染音频。而关闭这个选项后则是只会在你预览音频时才进行渲染（类似于原本的Utau）。</p>
+<div class="hint-container note">
+<p class="hint-container-title">注</p>
+<p>开启预渲染会在很大程度上让你的调声体验更加丝滑，但是这是建立在你使用的设备<strong>有充足的CPU资源的前提下</strong>，对于笔记本设备（尤其是轻薄本）这个选项会严重增大设备的负担并导致卡顿，所以对于设备性能并不理想的用户们我尤其建议关闭这一选项。</p>
+<p>如果你使用Moresampler或者TIPS这类本身比较大的建模类引擎，它们天然就稍慢一些的渲染速度会在开启这一选项后让你痛不欲生（</p>
+<p><s>跳绳一分钟，渲染两小时</s></p>
+</div>
+<p><strong>Maximum Render Threads</strong>即<strong>最大渲染线程</strong>，这个值控制渲染的线程数（如果你使用过Utau的话，那么Utau里每次进行渲染时的一个窗口就对应这里的一个线程。），默认值为2，即渲染时会同时使用两个线程，OpenUtau会自动在运行时对需要渲染的工程进行拆分并同时使用多个引擎进程来进行渲染，升高这个值可以有效的提升渲染的速度，但是也会消耗更多的性能和内存，实际上，将这个值设置的太大反而会产生反作用导致运行缓慢。一般建议视自己电脑的性能水平设置在2-6之间。</p>
+<p>下面的两个选项仅在使用<strong>神经网络模型</strong>（Vogen，NNSVS，Diffsinger，etc.）时具有实际作用，如需要使用可作为参考。</p>
+<p>机器学习运行器有<code v-pre>cpu</code>和<code v-pre>directml</code>两个选项，选择cpu即使用电脑的CPU进行渲染，而directml则可以支持使用GPU进行加速运算，如果你有一张Nvidia/AMD/Intel的显卡请务必使用DirectML来进行推理，否则会浪费大量的时间（因为cpu推理真的很慢！！！）</p>
+<p>如果你启用了DirectML作为机器学习运行器，那么你需要在下面将用于计算的GPU指定为你需要的GPU。</p>
 <h3 id="外观" tabindex="-1"><a class="header-anchor" href="#外观" aria-hidden="true">#</a> 外观</h3>
 <h3 id="oto-editor" tabindex="-1"><a class="header-anchor" href="#oto-editor" aria-hidden="true">#</a> Oto Editor</h3>
 <h3 id="高级" tabindex="-1"><a class="header-anchor" href="#高级" aria-hidden="true">#</a> 高级</h3>

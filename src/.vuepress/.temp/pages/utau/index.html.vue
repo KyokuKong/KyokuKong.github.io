@@ -1,6 +1,6 @@
 <template><div><div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>当前版本的教程更新于： 2023年11月23日</p>
+<p>当前版本的教程更新于： 2023年11月25日</p>
 <p>这并不是严谨的文档，更多只是个人对一些踩过的坑的经验之谈，也方便更多喜欢这些东西想要参与进创作的同志们能够少走一些弯路</p>
 </div>
 <div class="hint-container note">

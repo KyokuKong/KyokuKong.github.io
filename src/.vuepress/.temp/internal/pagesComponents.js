@@ -9,6 +9,8 @@ export const pagesComponents = {
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/index.html.vue")),
   // path: /docs/main.html
   "v-fb9569b6": defineAsyncComponent(() => import(/* webpackChunkName: "v-fb9569b6" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/docs/main.html.vue")),
+  // path: /utau/basic.html
+  "v-36173dce": defineAsyncComponent(() => import(/* webpackChunkName: "v-36173dce" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/utau/basic.html.vue")),
   // path: /utau/flags.html
   "v-6c4c99d6": defineAsyncComponent(() => import(/* webpackChunkName: "v-6c4c99d6" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/utau/flags.html.vue")),
   // path: /utau/from.html
@@ -39,6 +41,4 @@ export const pagesComponents = {
   "v-154dc4c4": defineAsyncComponent(() => import(/* webpackChunkName: "v-154dc4c4" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/star/index.html.vue")),
   // path: /timeline/
   "v-01560935": defineAsyncComponent(() => import(/* webpackChunkName: "v-01560935" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/timeline/index.html.vue")),
-  // path: /utau/basic.html
-  "v-36173dce": defineAsyncComponent(() => import(/* webpackChunkName: "v-36173dce" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/utau/basic.html.vue")),
 }
