@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as t,c,a as o}from"./app-qajTtDPI.js";const s={},_=o("p",null,"在之前的教程中",-1),a=[_];function n(r,l){return t(),c("div",null,a)}const m=e(s,[["render",n],["__file","basic.html.vue"]]);export{m as default};
