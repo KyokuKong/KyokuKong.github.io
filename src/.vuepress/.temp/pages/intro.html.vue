@@ -3,7 +3,7 @@
 <p class="hint-container-title">p.s</p>
 <p><s>草所以说为什么是自己绍介啊</s></p>
 </div>
-<img src="/favi.png" width="15%" height="15%">
+<img src="/favi.webp" width="15%" height="15%">
 <p>Kyoku，或者叫我<strong>狗空</strong>以及Bot空皆可，今年20。</p>
 <p>如你所见，是个电子坏蛋，每天都在想着怎么才能大吃特吃美味小孩。</p>
 <p>常驻坐标义乌，需要代购小商品可以找我，不过我会要五十倍运费。</p>
@@ -31,7 +31,7 @@
 <hr>
 <p>平常主要做一点音声合成相关的产出，欢迎来看：</p>
 <p><a href="https://www.bilibili.com/video/BV19X4y1L7CZ/" target="_blank" rel="noopener noreferrer"><strong>リレイアウター（中继输出者） / 狽音ウルシ 【UTAU COVER】【pv付】</strong><ExternalLinkIcon/></a></p>
-<BiliBili bvid="BV19X4y1L7CZ" autoplay="true"/><p>曾经还是小崽子的时候最想干的事情就是成为p主，真的开始尝试做p主了之后最大的愿望是窝在被窝里懒死，哈哈。</p>
+<BiliBili bvid="BV19X4y1L7CZ" autoplay="false"/><p>曾经还是小崽子的时候最想干的事情就是成为p主，真的开始尝试做p主了之后最大的愿望是窝在被窝里懒死，哈哈。</p>
 <p>产出稿件最大的动力是吃美味的狈狈。</p>
 <p><strong>我是超级狈宝厨！</strong></p>
 <hr>

@@ -19,7 +19,7 @@ MacOS我也想讲，奈何买不起Mac（泪目）
 
 OpenUtau是一款免费开源的共享软件，你可以直接在[官网](http://www.openutau.com/)或者[Github Release](https://github.com/stakira/OpenUtau/releases)下载到最新的版本。
 
-![直接选择对应自己操作系统环境的下载链接即可](../.vuepress/public/download_openutau.png)
+![直接选择对应自己操作系统环境的下载链接即可](../.vuepress/public/download_openutau.webp)
 
 ::: tip
 一般来讲，你应该选择`*Windows X64*`对应的下载项。
@@ -42,7 +42,7 @@ OpenUtau是一款免费开源的共享软件，你可以直接在[官网](http:/
 
 解压完成后的文件夹应当是这样的：
 
-![这是一部分文件，有这些就是正常的](../.vuepress/public/utau_unzip.png)
+![这是一部分文件，有这些就是正常的](../.vuepress/public/utau_unzip.webp)
 
 恭喜你！你已经完成了OpenUtau的安装。现在，打开OpenUtau.exe，开始你的跳绳之路吧（~~误~~
 
@@ -54,13 +54,13 @@ OpenUtau是一款免费开源的共享软件，你可以直接在[官网](http:/
 
 第一次启动OpenUtau时，它的窗口一般是这样的。
 
-![ ](../.vuepress/public/utau_first.png)
+![ ](../.vuepress/public/utau_first.webp)
 
 为了避免出现 `啊主播我的OpenUtau怎么发不出声音啊` 之类的~~传世经典~~状况，在开始我们的跳绳Time之前，我们需要对OpenUtau进行一些配置。
 
 点击 工具 --> 使用偏好 即可打开OpenUtau的设置界面。
 
-![工具 --> 使用偏好](../.vuepress/public/utau_tools.png)
+![工具 --> 使用偏好](../.vuepress/public/utau_tools.webp)
 
 使用偏好中有几个设置项目的分类，我们在这里分别进行讲解。
 
@@ -70,7 +70,7 @@ OpenUtau是一款免费开源的共享软件，你可以直接在[官网](http:/
 
 ### 回放
 
-![ ](../.vuepress/public/playback_settings.png)
+![ ](../.vuepress/public/playback_settings.webp)
 
 这个分类中主要是设置音频的播放相关的设置。
 
@@ -92,7 +92,7 @@ OpenUtau是一款免费开源的共享软件，你可以直接在[官网](http:/
 
 ### 路径
 
-![ ](../.vuepress/public/path.png)
+![ ](../.vuepress/public/path.webp)
 
 默认来讲，声库会在安装后被放在OpenUtau的**Singers**文件夹中，但是你也可以在这里设置额外的路径，OpenUtau也会在启动时读取这个路径中的声库（例如你的电脑上已经安装过Utau并且在Utau中设置过声库，你就可以把这个路径设置成Utau的声库路径，就可以和Utau共用声库了）。
 
@@ -100,7 +100,7 @@ OpenUtau是一款免费开源的共享软件，你可以直接在[官网](http:/
 
 ### 渲染
 
-![ ](../.vuepress/public/render.png)
+![ ](../.vuepress/public/render.webp)
 
 **预渲染**这一选项主要控制是否进行预渲染，也就是在你不进行预览播放时是否提前渲染音频，如果启用这个选项（默认选项）那么编辑器会自动在你不进行播放的时候渲染所有轨道的音频，且你的每次操作之后也都会自动渲染音频。而关闭这个选项后则是只会在你预览音频时才进行渲染（类似于原本的Utau）。
 
@@ -122,6 +122,32 @@ OpenUtau是一款免费开源的共享软件，你可以直接在[官网](http:/
 
 ### 外观
 
+![ ](../.vuepress/public/display.webp)
+
+这个选项卡主要用于配置一些界面显示相关的设置。
+
+**语言选项**很显然就是配置界面的显示语言，OpenUtau作为开源软件有着八国联军级别的语言适配。（确信）
+
+**歌手排序方式**主要影响在歌手列表里歌手的排序方式，配置为中文则会以中文拼音的顺序来进行排序。
+
+![如图内歌手列表就是以第一个汉字的中文拼音顺序排列的](../.vuepress/public/paixu.webp)
+
+**主题选项**则是控制OpenUtau界面的亮暗主题（白黑）。
+
+![亮色界面](../.vuepress/public/light.webp)
+
+![暗色界面](../.vuepress/public/dark.webp)
+
+**在钢琴窗上显示歌手背景图**这一选项则是设置是否在OpenUtau的界面上叠加显示一个在声库中预先配置的背景图（常用于录制调声晒）。
+
+Show other tracks' notes on piano roll（是否显示其他音轨上的音符）这一选项主要是设置是否显示一个其他音轨上的音符的叠加层（类似一些DAW的功能）
+
+![如图所示，这些蓝色的小音符是来自主旋律音轨的](../.vuepress/public/utau_notesontrack.webp)
+
 ### Oto Editor
 
+（暂时推迟）
+
 ### 高级
+
+（暂时推迟）
