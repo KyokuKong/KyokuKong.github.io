@@ -49,7 +49,7 @@ Kyoku，或者叫我**狗空**以及Bot空皆可，今年20。
 
 [**リレイアウター（中继输出者） / 狽音ウルシ 【UTAU COVER】【pv付】**](https://www.bilibili.com/video/BV19X4y1L7CZ/)
 
-<BiliBili bvid="BV19X4y1L7CZ" autoplay="false"/>
+<BiliBili bvid="BV19X4y1L7CZ"/>
 
 曾经还是小崽子的时候最想干的事情就是成为p主，真的开始尝试做p主了之后最大的愿望是窝在被窝里懒死，哈哈。
 

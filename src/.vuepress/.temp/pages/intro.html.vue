@@ -31,7 +31,7 @@
 <hr>
 <p>平常主要做一点音声合成相关的产出，欢迎来看：</p>
 <p><a href="https://www.bilibili.com/video/BV19X4y1L7CZ/" target="_blank" rel="noopener noreferrer"><strong>リレイアウター（中继输出者） / 狽音ウルシ 【UTAU COVER】【pv付】</strong><ExternalLinkIcon/></a></p>
-<BiliBili bvid="BV19X4y1L7CZ" autoplay="false"/><p>曾经还是小崽子的时候最想干的事情就是成为p主，真的开始尝试做p主了之后最大的愿望是窝在被窝里懒死，哈哈。</p>
+<BiliBili bvid="BV19X4y1L7CZ"/><p>曾经还是小崽子的时候最想干的事情就是成为p主，真的开始尝试做p主了之后最大的愿望是窝在被窝里懒死，哈哈。</p>
 <p>产出稿件最大的动力是吃美味的狈狈。</p>
 <p><strong>我是超级狈宝厨！</strong></p>
 <hr>

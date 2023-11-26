@@ -50,7 +50,7 @@
 <p class="hint-container-title">声码器的选择</p>
 <p>不同的声码器接受的音符名称格式和音源是不一样的，一般推荐对日语VCV和CVVC声库使用这里的 <u>JA VCV&amp;CVVC</u> 声码器，这个声码器可以同时接受输入あえいおうアエイオウ这样的假名，也可以输入aeiou这样的罗马音，可以有效防止<mark>发不出声</mark>这个问题的出现XD</p>
 </div>
-<figure><img src="@source/.vuepress/public/aeiou.webp" alt="使用 VCV&amp;CVVC 声声码器时输入あえいおう和aeiou是完全等价的" tabindex="0" loading="lazy"><figcaption>使用 VCV&amp;CVVC 声声码器时输入あえいおう和aeiou是<strong>完全等价</strong>的</figcaption></figure>
+<figure><img src="@source/.vuepress/public/aeiou.webp" alt="使用 VCV&amp;CVVC 声码器时输入あえいおう和aeiou是完全等价的" tabindex="0" loading="lazy"><figcaption>使用 VCV&amp;CVVC 声码器时输入あえいおう和aeiou是<strong>完全等价</strong>的</figcaption></figure>
 <p><strong>点击引擎分类</strong>可以切换内置的<strong>WORLDLINE-R引擎</strong>和<strong>CLASSIC引擎</strong>（即<u>和Utau相同的基于重采样器和合成器的构造的引擎组合</u>）而右边的小齿轮可以打开当前引擎的引擎设置界面。</p>
 <div class="hint-container note">
 <p class="hint-container-title">注</p>
