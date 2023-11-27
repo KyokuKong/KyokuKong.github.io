@@ -7,8 +7,6 @@ export const pagesComponents = {
   "v-184f4da6": defineAsyncComponent(() => import(/* webpackChunkName: "v-184f4da6" */"C:/Users/BotKong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/intro.html.vue")),
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"C:/Users/BotKong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/index.html.vue")),
-  // path: /docs/main.html
-  "v-fb9569b6": defineAsyncComponent(() => import(/* webpackChunkName: "v-fb9569b6" */"C:/Users/BotKong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/docs/main.html.vue")),
   // path: /utau/basic.html
   "v-36173dce": defineAsyncComponent(() => import(/* webpackChunkName: "v-36173dce" */"C:/Users/BotKong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/utau/basic.html.vue")),
   // path: /utau/flags.html
@@ -27,6 +25,8 @@ export const pagesComponents = {
   "v-3a249a67": defineAsyncComponent(() => import(/* webpackChunkName: "v-3a249a67" */"C:/Users/BotKong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/utau/resampler.html.vue")),
   // path: /utau/skills.html
   "v-93147c58": defineAsyncComponent(() => import(/* webpackChunkName: "v-93147c58" */"C:/Users/BotKong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/utau/skills.html.vue")),
+  // path: /docs/main.html
+  "v-fb9569b6": defineAsyncComponent(() => import(/* webpackChunkName: "v-fb9569b6" */"C:/Users/BotKong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/docs/main.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"C:/Users/BotKong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/404.html.vue")),
   // path: /docs/

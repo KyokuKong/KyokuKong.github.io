@@ -5,8 +5,6 @@ export const pagesData = {
   "v-184f4da6": () => import(/* webpackChunkName: "v-184f4da6" */"C:/Users/BotKong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/intro.html.js").then(({ data }) => data),
   // path: /
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"C:/Users/BotKong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
-  // path: /docs/main.html
-  "v-fb9569b6": () => import(/* webpackChunkName: "v-fb9569b6" */"C:/Users/BotKong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/docs/main.html.js").then(({ data }) => data),
   // path: /utau/basic.html
   "v-36173dce": () => import(/* webpackChunkName: "v-36173dce" */"C:/Users/BotKong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/utau/basic.html.js").then(({ data }) => data),
   // path: /utau/flags.html
@@ -25,6 +23,8 @@ export const pagesData = {
   "v-3a249a67": () => import(/* webpackChunkName: "v-3a249a67" */"C:/Users/BotKong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/utau/resampler.html.js").then(({ data }) => data),
   // path: /utau/skills.html
   "v-93147c58": () => import(/* webpackChunkName: "v-93147c58" */"C:/Users/BotKong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/utau/skills.html.js").then(({ data }) => data),
+  // path: /docs/main.html
+  "v-fb9569b6": () => import(/* webpackChunkName: "v-fb9569b6" */"C:/Users/BotKong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/docs/main.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"C:/Users/BotKong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
   // path: /docs/
