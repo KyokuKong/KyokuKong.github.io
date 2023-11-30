@@ -16,5 +16,12 @@ export default sidebar({
       link: "/utau/index",
       children: "structure",
     },
+    {
+      text: "一些杂谈",
+      collapsible: true,
+      icon: "code",
+      prefix: "docs/",
+      children: "structure",
+    },
   ],
 });
