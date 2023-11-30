@@ -11,7 +11,7 @@ article: false
 ~~草所以说为什么是自己绍介啊~~
 :::
 
-<img src="/favi.webp" width="15%" height="15%">
+<img src="https://img.kyoku.top/logo.png" width="15%" height="15%">
 
 Kyoku，或者叫我**狗空**以及Bot空皆可，今年20。
 
@@ -90,6 +90,4 @@ Youtube：https://www.youtube.com/@DogeKongDX
 [Vuepress](https://vuepress.vuejs.org/zh/)是一款基于`Vue.js`的静态Html生成工具，具有极强的可扩展性，支持自由插入vue部件。
 
 在此鸣谢所有VuePress和Hope-Theme的开发人员。
-
-
 

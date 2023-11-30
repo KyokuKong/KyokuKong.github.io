@@ -19,13 +19,13 @@ order: 3
 
 在打开OpenUtau后，首先进入的页面。
 
-![主界面](../.vuepress/public/mainwindow.webp)
+![主界面](https://img.kyoku.top/mainwindow.webp)
 
 ### 顶栏
 
 我们首先从顶栏开始介绍。
 
-![ ](../.vuepress/public/navbar.gif)
+![ ](https://img.kyoku.top/navbar.gif)
 
 **顶栏**主要承载了一些文件相关的操作以及和软件本身有关的操作。
 
@@ -35,27 +35,27 @@ order: 3
 
 作为示例，如果你需要导入多个ust工程到多个轨道上，你应该点击 **文件 --> 导入轨道** ，然后在打开的新窗口中选中**所有**你需要的ust工程。
 
-![如图所示](../.vuepress/public/utau-inputust.webp)
+![如图所示](https://img.kyoku.top/utau-inputust.webp)
 
 点击打开后，音轨会被加入到工程的最下方。
 
-![ ](../.vuepress/public/afterputin.webp)
+![ ](https://img.kyoku.top/afterputin.webp)
 
 **工具**选项卡中包含了一些比较常用的功能，如**自动排列窗口**。
 
-![这是垂直1:3排列后的效果，OpenUtau会在排列时自动设置全屏<br>如果你比较习惯VOCALOID的界面排列方式那么这个可能会很适合你](../.vuepress/public/ypailie.webp)
+![这是垂直1:3排列后的效果，OpenUtau会在排列时自动设置全屏<br>如果你比较习惯VOCALOID的界面排列方式那么这个可能会很适合你](https://img.kyoku.top/ypailie.webp)
 
 **清除缓存功能**会把OpenUtau产生的所有合成缓存都删除掉，这有助于减少存储的占用并且有时候可能可以解决一些合成音频失败的问题（这个缓存不包含Moresampler和TIPS等建模类引擎生成的模型文件，请放心使用）。
 
 另外，值得一提的是，OpenUtau自带了**歌手管理**工具，通过 **工具 --> 歌手** 即可打开。
 
-![如果你折腾过声库的oto，那么你大概马上就理解这个小工具可以用来做什么了](../.vuepress/public/singers.webp)
+![如果你折腾过声库的oto，那么你大概马上就理解这个小工具可以用来做什么了](https://img.kyoku.top/singers.webp)
 
 ~~当然如果你只是刚刚打算入门的萌新那么你也可以看过了事，以后也许也会有看懂并且用到这里的东西的一天的XD~~
 
 ### 控件栏
 
-![左边用于设置曲速和节拍 中间用来控制预览播放 右边则显示播放标记的时间位置](../.vuepress/public/speed.webp)
+![左边用于设置曲速和节拍 中间用来控制预览播放 右边则显示播放标记的时间位置](https://img.kyoku.top/speed.webp)
 
 可以在这个控件栏中设置工程的**曲速**和**节拍**（当然也可以在右边的音轨器中设置曲速和节拍标记）
 
@@ -73,7 +73,7 @@ order: 3
 
 ### 侧边栏（音轨管理）
 
-![ ](../.vuepress/public/track_manager.webp)
+![ ](https://img.kyoku.top/track_manager.webp)
 
 侧栏主要显示对应音轨上的**声库信息**，包括最左侧的声库头图、音轨名、选用的声库、使用的声码器、引擎设置、音量滑条及播放控制。
 
@@ -83,17 +83,17 @@ order: 3
 如果你现在就想开始安装声库，可以跳到[#安装声库](#安装声库)
 :::
 
-![ ](../.vuepress/public/choose_singer.gif)
+![ ](https://img.kyoku.top/../.vuepress/public/choose_singer.gif)
 
 **点击声码器名称**即可展开声码器列表（默认为DEFAULT，会自动根据声库设置切换声码器，如果你发现默认的声码器没有办法正常渲染声音可以在这里切换声码器。）
 
-![ ](../.vuepress/public/vocalencoder.gif)
+![ ](https://img.kyoku.top/vocalencoder.gif)
 
 ::: info 声码器的选择
 不同的声码器接受的音符名称格式和音源是不一样的，一般推荐对日语VCV和CVVC声库使用这里的 <u>JA VCV&CVVC</u> 声码器，这个声码器可以同时接受输入あえいおうアエイオウ这样的假名，也可以输入aeiou这样的罗马音，可以有效防止==发不出声==这个问题的出现XD
 :::
 
-![使用 VCV&CVVC 声码器时输入あえいおう和aeiou是**完全等价**的](../.vuepress/public/aeiou.webp)
+![使用 VCV&CVVC 声码器时输入あえいおう和aeiou是**完全等价**的](https://img.kyoku.top/aeiou.webp)
 
 **点击引擎分类**可以切换内置的**WORLDLINE-R引擎**和**CLASSIC引擎**（即<u>和Utau相同的基于重采样器和合成器的构造的引擎组合</u>）而右边的小齿轮可以打开当前引擎的引擎设置界面。
 
@@ -109,7 +109,7 @@ order: 3
 
 ### 播放界面
 
-![ ](../.vuepress/public/play.gif)
+![ ](https://img.kyoku.top/play.gif)
 
 右侧的窗口就是OpenUtau的播放界面，会显示每个声轨的音符预览，**播放标记**和**小节号**会显示在顶部，同时在顶部的最左侧会显示这个工程的**默认曲速**和**拍号设置**。
 ::: note 注
@@ -124,7 +124,7 @@ OpenUtau有很多种安装声库的方法，你可以直接像Utau一样解压�
 
 对于OpenUtau，我们更推荐使用**拖放**的方法安装，你只需要把声库（.zip, .uar, .rar, etc.）直接拖放到OpenUtau的页面中就会自动启动安装程序。
 
-![ ](../.vuepress/public/install_bank.gif)
+![ ](https://img.kyoku.top/install_bank.gif)
 
 在通过这种方法安装声库时，你可以设置声库的oto和配置文件的编码格式，使其可以被正确显示，然后OpenUtau会自动对声库进行转码，可以有效解决乱码和不识别的问题。
 

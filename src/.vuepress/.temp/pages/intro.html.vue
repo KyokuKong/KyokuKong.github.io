@@ -3,7 +3,7 @@
 <p class="hint-container-title">p.s</p>
 <p><s>草所以说为什么是自己绍介啊</s></p>
 </div>
-<img src="/favi.webp" width="15%" height="15%">
+<img src="https://img.kyoku.top/logo.png" width="15%" height="15%">
 <p>Kyoku，或者叫我<strong>狗空</strong>以及Bot空皆可，今年20。</p>
 <p>如你所见，是个电子坏蛋，每天都在想着怎么才能大吃特吃美味小孩。</p>
 <p>常驻坐标义乌，需要代购小商品可以找我，不过我会要五十倍运费。</p>

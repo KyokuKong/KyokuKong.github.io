@@ -40,7 +40,7 @@
 <p>Utau是一个事实上<strong>前后端分离</strong>（即用户所见并使用的<strong>编辑器</strong>和负责处理音频的<strong>采样器</strong>相互独立且完全模块化）并且有相应的实现规范的项目，所以用户可以自由选用不同的前端编辑器进行使用。</p>
 <p>目前主流的编辑器主要有以下两种：</p>
 <h3 id="openutau" tabindex="-1"><a class="header-anchor" href="#openutau" aria-hidden="true">#</a> <strong>OpenUtau</strong></h3>
-<figure><img src="@source/.vuepress/public/openutau.png" alt="OpenUtau" tabindex="0" loading="lazy"><figcaption>OpenUtau</figcaption></figure>
+<figure><img src="https://img.kyoku.top/openutau.png" alt="OpenUtau" tabindex="0" loading="lazy"><figcaption>OpenUtau</figcaption></figure>
 <p>由<u>Stakira</u> 及 <u>OpenUtau社区</u> 开发的<strong>兼容Utau生态</strong>并且致力于对未来的音声合成工具提供<strong>标准化平台</strong>的<strong>开源</strong>项目。</p>
 <p>使用.NET Core和Avalonia框架开发，兼容<code v-pre>Windows</code>, <code v-pre>Linux</code>, <code v-pre>MacOS</code>平台。</p>
 <p>作为近些年的后起之秀，OpenUtau很好的解决了Utau编辑器的一部分痛点，例如<strong>字符编码难题</strong>，对高版本系统的<strong>兼容问题</strong>等，同时附带了大量原本由插件才能实现的便捷编辑功能，但是由于跟Utau本体编辑器的很多接口不同，会导致一部分原有的插件无法使用。（<s>当然，插件不能用很多时候可能主要还是编码问题......</s>）</p>
@@ -52,7 +52,7 @@
 <p class="hint-container-title">提示</p>
 <p>utau即日语中 <strong>唄う</strong> 的罗马音，意为歌唱，非常言简意赅XD</p>
 </div>
-<figure><img src="@source/.vuepress/public/utau_logo.png" alt="Utau" tabindex="0" loading="lazy"><figcaption>Utau</figcaption></figure>
+<figure><img src="https://img.kyoku.top/utau_logo.png" alt="Utau" tabindex="0" loading="lazy"><figcaption>Utau</figcaption></figure>
 <p>由 <u>饴屋P</u> 开发的<strong>Utau默认编辑器</strong>，最早发布于2008年，使用Virtual Basic语言编写，是最早同时也最成熟的编辑器，也是这一生态的开创者。</p>
 <p>受限于当时的技术，Utau编辑器在当代设备上有非常多影响体验的缺陷，尤其是令人烦躁又反复出现的编码错误，同时Utau对Windows 10之后的系统兼容性相对较差，可能会出现难以预料的问题。</p>
 <p>由于使用早期的VB生态开发，Utau本身<strong>仅支持Windows</strong>，但是作为这个生态的活化石，在配置好之后可以有比较优秀的插件使用体验。</p>
