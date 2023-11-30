@@ -11,7 +11,7 @@ export default hopeTheme({
 
   author: {
     name: "Kyoku_極",
-    url: "https://blogx.kyoku.top",
+    url: "https://blog.kyoku.top",
   },
 
   logo: "https://img.kyoku.top/logo.png",

@@ -2,6 +2,7 @@ export const pagesRoutes = [
   ["v-4a3bd48a","/in.html",{"y":"p","t":"使用向导","i":"circle-info"},[":md"]],
   ["v-184f4da6","/intro.html",{"y":"p","t":"自己紹介","i":"circle-info"},[":md"]],
   ["v-8daa1a0e","/",{"y":"h","t":"主页","i":"fa-solid fa-house"},["/README.md"]],
+  ["v-174f4e80","/docs/fisco-depoly.html",{"d":1701302400000,"l":"2023年11月30日","y":"a","t":"区块链部署/运维 Pt.1 - 部署FISCO套件"},[":md"]],
   ["v-fb9569b6","/docs/main.html",{"y":"a","t":""},[":md"]],
   ["v-36173dce","/utau/basic.html",{"d":1700956800000,"l":"2023年11月26日","v":"/assets/images/cover3.jpg","e":"<p>在上个章节中我们已经完成了OpenUtau的基本配置，现在是时候让我们来解决<mark>主播我的Utau为什么发不出声的问题了</mark>（误</p>\n<h2> 主界面</h2>\n<div class=\"hint-container tip\">\n<p class=\"hint-container-title\">提示</p>\n<p><span class=\"xingmu\"><strong>详细介绍注意！！！</strong></span></p>\n<p>这里会介绍主界面的各个元素的作用，虽然个人来讲比较建议你都了解一下再上手，但是如果你觉得你完全看一眼就知道这些要怎么用，那你完全可以直接跳到下面的<a href=\"#%E5%BC%80%E5%A7%8B%E8%B0%83%E5%A3%B0%EF%BC%81\">开始调声！</a>部分。</p>\n<p><s>毕竟这个部分确实稍微有些长</s></p>\n</div>","y":"a","t":"基础操作入门","i":"fa-solid fa-music","O":3},[":md"]],
   ["v-6c4c99d6","/utau/flags.html",{"d":1700611200000,"l":"2023年11月22日","v":"/assets/images/cover3.jpg","y":"a","t":"Flag的使用","i":"fa-solid fa-flag","O":5},[":md"]],
