@@ -14,7 +14,7 @@ export default hopeTheme({
     url: "https://blog.kyoku.top",
   },
 
-  logo: "http://zn.imc.icu:12645/ota/feikong233/ylfFot2T.png",
+  logo: "https://img.kyoku.top/logo.png",
 
   docsDir: "src",
 

@@ -11,7 +11,7 @@ article: false
 ~~草所以说为什么是自己绍介啊~~
 :::
 
-<img src="/favi.webp" width="15%" height="15%">
+<img src="https://img.kyoku.top/logo.png" width="15%" height="15%">
 
 Kyoku，或者叫我**狗空**以及Bot空皆可，今年20。
 
