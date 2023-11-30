@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-x3n3nnut.js";import{o,c}from"./app-E_3PUtAW.js";const t={};function r(_,s){return o(),c("div")}const l=e(t,[["render",r],["__file","fisco-depoly.html.vue"]]);export{l as default};
