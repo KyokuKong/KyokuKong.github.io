@@ -57,6 +57,9 @@
 <p>本站使用VuePress2搭建，使用<a href="https://github.com/vuepress-theme-hope/" target="_blank" rel="noopener noreferrer">Vuepress-Theme-Hope<ExternalLinkIcon/></a>主题加上一些自己的魔改以及各种各样的vue组件。</p>
 <p><a href="https://vuepress.vuejs.org/zh/" target="_blank" rel="noopener noreferrer">Vuepress<ExternalLinkIcon/></a>是一款基于<code v-pre>Vue.js</code>的静态Html生成工具，具有极强的可扩展性，支持自由插入vue部件。</p>
 <p>在此鸣谢所有VuePress和Hope-Theme的开发人员。</p>
+<p><a target="_blank" href="http://www.freecdn.pw/?zzwz" title="免费云加速（FreeCDN），为您免费提供网站加速和网站防御（DDOS、CC攻击）" alt="免费云加速（FreeCDN），为您免费提供网站加速和网站防御（DDOS、CC攻击）">本站由免费云加速（FreeCDN）提供网站加速和攻击防御服务</a></p>
+<p><a target="_blank" href="http://www.freecdn.pw/?zzlogo" title="免费云加速（FreeCDN），为您免费提供网站加速和网站防御（DDOS、CC攻击）" ><img src="http://www.freecdn.pw/images/zzlogo.png" width="150" height="80
+" alt="免费云加速（FreeCDN），为您免费提供网站加速和网站防御（DDOS、CC攻击）"></a></p>
 </div></template>
 
 
