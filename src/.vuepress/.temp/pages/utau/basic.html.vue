@@ -3,7 +3,7 @@
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p><span class="xingmu"><strong>详细介绍注意！！！</strong></span></p>
-<p>这里会介绍主界面的各个元素的作用，虽然个人来讲比较建议你都了解一下再上手，但是如果你觉得你完全看一眼就知道这些要怎么用，那你完全可以直接跳到下面的<a href="#%E5%BC%80%E5%A7%8B%E8%B0%83%E5%A3%B0%EF%BC%81">开始调声！</a>部分。</p>
+<p>这里会介绍主界面的各个元素的作用，虽然个人来讲比较建议你都了解一下再上手，但是如果你觉得你完全看一眼就知道这些要怎么用，那你完全可以直接跳到下面的<a href="#%E5%BC%80%E5%A7%8B%E8%B0%83%E5%A3%B0">开始调声</a>部分。</p>
 <p><s>毕竟这个部分确实稍微有些长</s></p>
 </div>
 <p>在打开OpenUtau后，首先进入的页面。</p>
@@ -78,6 +78,21 @@
 <p>由于Utau诞生于上个互联网时代（2009年）并且使用Virtual Basic语言编写，它<strong>完全没有</strong>为不同的编码环境做设计（那个时代的私人共享软件传播一般不会直接考虑到这种世界范围的分发。）而日本的计算机和其他区域不同，全部使用日本规定的<strong>Shift-JIS</strong>编码（国内现在的计算机环境一般是把GB2312编码成UTF8，所以大部分情况下不会出现这么严重的编码问题。），导致在非日本地区的计算机上会产生大量的乱码错误。</p>
 <p>所以解决编码问题的关键主要在于把Utau放入一个Shift-JIS的环境或者直接把Utau的字符替换成UTF-8的编码，这也是前些年主要的解决方案。</p>
 <p>当然OpenUtau直接就是为了现代计算机设计的，自然也没有这个问题，但是仍然需要为各种各样的声库准备转码功能。</p>
+</div>
+<h2 id="开始调声" tabindex="-1"><a class="header-anchor" href="#开始调声" aria-hidden="true">#</a> 开始调声</h2>
+<p>还是让我们先回到主界面里，点击右侧音轨页面即可创建新的Part。</p>
+<figure><img src="https://img.kyoku.top/动画1.gif" alt=" " tabindex="0" loading="lazy"><figcaption> </figcaption></figure>
+<p>双击Part即可打开编辑窗口。</p>
+<figure><img src="https://img.kyoku.top/20231205090440.png" alt="如果你有过使用Cubase/FL Studio等DAW软件的经验，你应该能发现这个编辑界面其实就是钢琴窗" tabindex="0" loading="lazy"><figcaption>如果你有过使用Cubase/FL Studio等DAW软件的经验，你应该能发现这个编辑界面其实就是钢琴窗</figcaption></figure>
+<p>OpenUtau的编辑界面分为顶栏（功能栏）、音符编辑（钢琴窗）以及底栏（参数编辑器）三个部分。</p>
+<h3 id="编辑音符" tabindex="-1"><a class="header-anchor" href="#编辑音符" aria-hidden="true">#</a> 编辑音符</h3>
+<p>OpenUtau的音符编辑器是一个典型的钢琴窗界面，它可以上下滚动，并且在最左侧标识了对应的音高。</p>
+<p>在你进入这个界面时，OpenUtau会自动切换到绘制模式，你可以在钢琴窗的任一空白部分点击并拖动来创建音符，创建好的音符双击即可编辑歌词。</p>
+<figure><img src="https://img.kyoku.top/动画2.gif" alt="功能栏上选项为小铅笔图标时即为绘制模式，具体会在后续章节讲解" tabindex="0" loading="lazy"><figcaption>功能栏上选项为小铅笔图标时即为绘制模式，具体会在后续章节讲解</figcaption></figure>
+<p>作为示例，我们可以尝试着画一点简单的旋律。</p>
+<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
+<p>本篇教程中，后续的操作教学都会以</p>
 </div>
 </div></template>
 

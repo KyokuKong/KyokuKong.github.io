@@ -5,7 +5,7 @@ MacOS我也想讲，奈何买不起Mac（泪目）</p>
 </div>
 <div class="hint-container info">
 <p class="hint-container-title">相关信息</p>
-<p>截止本篇文档最后一次被编辑时的OpenUtau正式发行版本为 <a href="https://github.com/stakira/OpenUtau/releases/tag/build%2F0.1.158" target="_blank" rel="noopener noreferrer">V0.1.158<ExternalLinkIcon/></a> Release。尽管不同版本的操作一般并不会有什么太大的区别，但我仍然建议你优先根据实际情况进行操作。</p>
+<p>截止本篇文档最后一次被编辑时的OpenUtau正式发行版本为 <a href="https://github.com/stakira/OpenUtau/releases/tag/build%2F0.1.327" target="_blank" rel="noopener noreferrer">V0.1.327<ExternalLinkIcon/></a> Release。尽管不同版本的操作一般并不会有什么太大的区别，但我仍然建议你优先根据实际情况进行操作。</p>
 <p>如果一直没有跟进版本那么欢迎评论区催更~</p>
 </div>
 <h2 id="下载及安装" tabindex="-1"><a class="header-anchor" href="#下载及安装" aria-hidden="true">#</a> 下载及安装</h2>
@@ -20,7 +20,7 @@ MacOS我也想讲，奈何买不起Mac（泪目）</p>
 <p class="hint-container-title">注</p>
 <p>由于一些一言难尽的原因，直接通过官网或者release下载安装程序有时候速度会相当悲惨。</p>
 <p>如果你在尝试过使用多线程下载器等方式后仍然不能正常的进行下载，我也提供了<strong>云盘版本</strong>。</p>
-<p>云盘版本可能会无法马上跟进每次更新，当前云盘版本为0.1.158。</p>
+<p>云盘版本可能会无法马上跟进每次更新，当前云盘版本为0.1.327。</p>
 <p>-- &gt; <a href="https://www.123pan.com/s/GTS0Vv-EpHod.html" target="_blank" rel="noopener noreferrer">123网盘<ExternalLinkIcon/></a></p>
 </div>
 <p>一般来讲，在从官网下载之后，你会得到一个<code v-pre>OpenUtau-win-x64.zip</code>，直接在你喜欢的地方解压即可。（如果下载的是exe版本只需要把安装程序正常走完即可，然后你可以跳过下面这段文字）。</p>
