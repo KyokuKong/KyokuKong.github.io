@@ -23,5 +23,12 @@ export default sidebar({
       prefix: "docs/",
       children: "structure",
     },
+    {
+      text: "BreakBot使用文档",
+      collapsible: "true",
+      icon: "file",
+      prefix: "breakbot/",
+      children: "structure",
+    },
   ],
 });

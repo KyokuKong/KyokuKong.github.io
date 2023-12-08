@@ -5,6 +5,10 @@ export const pagesData = {
   "v-184f4da6": () => import(/* webpackChunkName: "v-184f4da6" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/intro.html.js").then(({ data }) => data),
   // path: /
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
+  // path: /breakbot/about.html
+  "v-40948dda": () => import(/* webpackChunkName: "v-40948dda" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/breakbot/about.html.js").then(({ data }) => data),
+  // path: /breakbot/hitech.html
+  "v-54080518": () => import(/* webpackChunkName: "v-54080518" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/breakbot/hitech.html.js").then(({ data }) => data),
   // path: /docs/fisco-depoly.html
   "v-174f4e80": () => import(/* webpackChunkName: "v-174f4e80" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/docs/fisco-depoly.html.js").then(({ data }) => data),
   // path: /docs/main.html
@@ -29,6 +33,8 @@ export const pagesData = {
   "v-93147c58": () => import(/* webpackChunkName: "v-93147c58" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/utau/skills.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
+  // path: /breakbot/
+  "v-e54b5c24": () => import(/* webpackChunkName: "v-e54b5c24" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/breakbot/index.html.js").then(({ data }) => data),
   // path: /docs/
   "v-147825fb": () => import(/* webpackChunkName: "v-147825fb" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/docs/index.html.js").then(({ data }) => data),
   // path: /category/

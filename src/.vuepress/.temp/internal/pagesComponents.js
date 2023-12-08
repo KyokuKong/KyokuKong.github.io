@@ -7,6 +7,10 @@ export const pagesComponents = {
   "v-184f4da6": defineAsyncComponent(() => import(/* webpackChunkName: "v-184f4da6" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/intro.html.vue")),
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/index.html.vue")),
+  // path: /breakbot/about.html
+  "v-40948dda": defineAsyncComponent(() => import(/* webpackChunkName: "v-40948dda" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/breakbot/about.html.vue")),
+  // path: /breakbot/hitech.html
+  "v-54080518": defineAsyncComponent(() => import(/* webpackChunkName: "v-54080518" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/breakbot/hitech.html.vue")),
   // path: /docs/fisco-depoly.html
   "v-174f4e80": defineAsyncComponent(() => import(/* webpackChunkName: "v-174f4e80" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/docs/fisco-depoly.html.vue")),
   // path: /docs/main.html
@@ -31,6 +35,8 @@ export const pagesComponents = {
   "v-93147c58": defineAsyncComponent(() => import(/* webpackChunkName: "v-93147c58" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/utau/skills.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/404.html.vue")),
+  // path: /breakbot/
+  "v-e54b5c24": defineAsyncComponent(() => import(/* webpackChunkName: "v-e54b5c24" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/breakbot/index.html.vue")),
   // path: /docs/
   "v-147825fb": defineAsyncComponent(() => import(/* webpackChunkName: "v-147825fb" */"C:/Users/Kyoku_Kong/Documents/GitHub/kyokukong.github.io/src/.vuepress/.temp/pages/docs/index.html.vue")),
   // path: /category/
