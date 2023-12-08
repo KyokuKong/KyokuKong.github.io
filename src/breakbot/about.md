@@ -24,3 +24,7 @@ Break Bot 由HelicopteR开发，鸣谢以下开发人员：
 - /Ping
 
 查看Break-Bot的存活情况
+
+- /Status
+
+查看Break-Bot的服务器运行情况
