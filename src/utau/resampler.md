@@ -73,6 +73,12 @@ Utau本身长期作为音声合成技术更新迭代的承载平台，不同引�
 
 ### Fresamp14
 
+![ ](https://img.kyoku.top/fresamp14.webp){width=80%}
+
+<audio controls="controls">
+    <source src="https://img.kyoku.top/Fresamp14Preview_Track3.ogg" type="audio/ogg">
+</audio>
+
 你可以理解为这个才是Utau一直以来事实上的官方引擎。
 
 由Utau的开发者饴屋p开发的引擎，从Utau发布开始一直迭代到2013年，但是并不随Utau安装一并附带。
@@ -89,6 +95,12 @@ Utau本身长期作为音声合成技术更新迭代的承载平台，不同引�
 
 ### Doppelter
 
+![ ](https://img.kyoku.top/doppelter.webp){width=80%}
+
+<audio controls="controls">
+    <source src="https://img.kyoku.top/DoppelterPreview_Track3_Track3.ogg" type="audio/ogg">
+</audio>
+
 同样由饴屋p开发，作为Utau的新默认引擎来开发。
 
 （结果Utau编辑器本身的迭代停在了2013年，20年才发布的Doppelter至今没有等到它开箱附赠的那天，不愧是你啊Ameya。）
@@ -99,8 +111,12 @@ Utau本身长期作为音声合成技术更新迭代的承载平台，不同引�
 
 ### Moresampler
 
+![ ](https://img.kyoku.top/moresampler.webp){width=80%}
+
+<audio controls="controls">
+    <source src="https://img.kyoku.top/MoresamplerPreview_Track3_Track3_Track3_Track3.ogg" type="audio/ogg">
+</audio>
+
 由 Kanru Hua 开发的建模式引擎。
 
 Moresampler以及其代表性的LLSM技术可以说宣告了这一代歌声合成技术探索的华丽结尾，Mores是一个近乎六边形的合成引擎，有着根本摸不到边的上限。
-
-如果你有印象的话，你应该会想到Kanru Hua（华侃如）正是Synthesizer V的开发者，这里的V代表了第五次迭代，也许

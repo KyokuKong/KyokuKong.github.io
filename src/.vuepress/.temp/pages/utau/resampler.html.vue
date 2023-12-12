@@ -35,6 +35,10 @@
 <p>循环式引擎会将oto的元音部分进行循环拼贴，对音质的影响很小，但是对声库录制时元音部分的稳定度要求极高，可能会产生一些很莫名其妙的问题。</p>
 </div>
 <h3 id="fresamp14" tabindex="-1"><a class="header-anchor" href="#fresamp14" aria-hidden="true">#</a> Fresamp14</h3>
+<figure><img src="https://img.kyoku.top/fresamp14.webp" alt=" " width="80%" tabindex="0" loading="lazy"><figcaption> </figcaption></figure>
+<audio controls="controls">
+    <source src="https://img.kyoku.top/Fresamp14Preview_Track3.ogg" type="audio/ogg">
+</audio>
 <p>你可以理解为这个才是Utau一直以来事实上的官方引擎。</p>
 <p>由Utau的开发者饴屋p开发的引擎，从Utau发布开始一直迭代到2013年，但是并不随Utau安装一并附带。</p>
 <p><s>（附带的是效果超差的Resampler.exe）</s></p>
@@ -43,14 +47,21 @@
 <p>需要配合wavtool使用，建议使用饴屋的Wavtool系列。</p>
 <p><a href="http://utau2008.xrea.jp/2020/engine/wavtool64.zip" target="_blank" rel="noopener noreferrer">Wavtool64-饴屋p官网配布<ExternalLinkIcon/></a></p>
 <h3 id="doppelter" tabindex="-1"><a class="header-anchor" href="#doppelter" aria-hidden="true">#</a> Doppelter</h3>
+<figure><img src="https://img.kyoku.top/doppelter.webp" alt=" " width="80%" tabindex="0" loading="lazy"><figcaption> </figcaption></figure>
+<audio controls="controls">
+    <source src="https://img.kyoku.top/DoppelterPreview_Track3_Track3.ogg" type="audio/ogg">
+</audio>
 <p>同样由饴屋p开发，作为Utau的新默认引擎来开发。</p>
 <p>（结果Utau编辑器本身的迭代停在了2013年，20年才发布的Doppelter至今没有等到它开箱附赠的那天，不愧是你啊Ameya。）</p>
 <p>作为纯拼接式引擎，表现非常优秀，可以说是超级万金油，听感比较自然。</p>
 <p><a href="http://utau2008.xrea.jp/2020/engine/doppeltler009.zip" target="_blank" rel="noopener noreferrer">Doppelter009-饴屋p官网配布<ExternalLinkIcon/></a></p>
 <h3 id="moresampler" tabindex="-1"><a class="header-anchor" href="#moresampler" aria-hidden="true">#</a> Moresampler</h3>
+<figure><img src="https://img.kyoku.top/moresampler.webp" alt=" " width="80%" tabindex="0" loading="lazy"><figcaption> </figcaption></figure>
+<audio controls="controls">
+    <source src="https://img.kyoku.top/MoresamplerPreview_Track3_Track3_Track3_Track3.ogg" type="audio/ogg">
+</audio>
 <p>由 Kanru Hua 开发的建模式引擎。</p>
 <p>Moresampler以及其代表性的LLSM技术可以说宣告了这一代歌声合成技术探索的华丽结尾，Mores是一个近乎六边形的合成引擎，有着根本摸不到边的上限。</p>
-<p>如果你有印象的话，你应该会想到Kanru Hua（华侃如）正是Synthesizer V的开发者，这里的V代表了第五次迭代，也许</p>
 </div></template>
 
 

@@ -19,7 +19,9 @@ export default defineUserConfig({
     componentsPlugin({
       components: [
         "BiliBili",
-        "FontIcon"
+        "FontIcon",
+        "AudioPlayer",
+        "VidStack",
       ],
       componentOptions: {
         fontIcon: {

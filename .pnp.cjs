@@ -32,6 +32,7 @@ const RAW_RUNTIME_STATE =
           ["hls.js", "npm:1.4.12"],\
           ["less", "npm:4.2.0"],\
           ["sass", "npm:1.69.5"],\
+          ["vidstack", "npm:1.9.6"],\
           ["vue", "virtual:4c2943d1f727866078dc6773e62613aeb00e91b85f47117a46ca2be8f82c6942ffcd2fcb6e17b6d473feb6033c80c7c3a3bb56278a273fa308ebc7a3de851caf#npm:3.3.8"],\
           ["vuepress", "npm:2.0.0-rc.0"],\
           ["vuepress-plugin-components", "virtual:a86905bb6bdeaa342f391829edd7c9c18fe7619fe13d0f4126b71b186928b13446b0be32841b9fd2b146e8627aceb5bad0bed4df16850c4046bc07d75b95dce0#npm:2.0.0-rc.0"],\
@@ -6811,6 +6812,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["media-captions", [\
+      ["npm:1.0.2", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/media-captions-npm-1.0.2-bfd00cd348-10c0.zip/node_modules/media-captions/",\
+        "packageDependencies": [\
+          ["media-captions", "npm:1.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["medium-zoom", [\
       ["npm:1.1.0", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/medium-zoom-npm-1.1.0-edbd0e7ca5-10c0.zip/node_modules/medium-zoom/",\
@@ -8637,6 +8647,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["vidstack", [\
+      ["npm:1.9.6", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/vidstack-npm-1.9.6-50f20eba0e-10c0.zip/node_modules/vidstack/",\
+        "packageDependencies": [\
+          ["vidstack", "npm:1.9.6"],\
+          ["media-captions", "npm:1.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["vite", [\
       ["npm:5.0.2", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/vite-npm-5.0.2-e1256a9c0b-10c0.zip/node_modules/vite/",\
@@ -9000,7 +9020,7 @@ const RAW_RUNTIME_STATE =
           ["plyr", null],\
           ["qrcode", "npm:1.5.3"],\
           ["sass-loader", null],\
-          ["vidstack", null],\
+          ["vidstack", "npm:1.9.6"],\
           ["vue", "virtual:4c2943d1f727866078dc6773e62613aeb00e91b85f47117a46ca2be8f82c6942ffcd2fcb6e17b6d473feb6033c80c7c3a3bb56278a273fa308ebc7a3de851caf#npm:3.3.8"],\
           ["vue-router", "virtual:4c2943d1f727866078dc6773e62613aeb00e91b85f47117a46ca2be8f82c6942ffcd2fcb6e17b6d473feb6033c80c7c3a3bb56278a273fa308ebc7a3de851caf#npm:4.2.5"],\
           ["vuepress", "npm:2.0.0-rc.0"],\
@@ -9680,6 +9700,7 @@ const RAW_RUNTIME_STATE =
           ["hls.js", "npm:1.4.12"],\
           ["less", "npm:4.2.0"],\
           ["sass", "npm:1.69.5"],\
+          ["vidstack", "npm:1.9.6"],\
           ["vue", "virtual:4c2943d1f727866078dc6773e62613aeb00e91b85f47117a46ca2be8f82c6942ffcd2fcb6e17b6d473feb6033c80c7c3a3bb56278a273fa308ebc7a3de851caf#npm:3.3.8"],\
           ["vuepress", "npm:2.0.0-rc.0"],\
           ["vuepress-plugin-components", "virtual:a86905bb6bdeaa342f391829edd7c9c18fe7619fe13d0f4126b71b186928b13446b0be32841b9fd2b146e8627aceb5bad0bed4df16850c4046bc07d75b95dce0#npm:2.0.0-rc.0"],\

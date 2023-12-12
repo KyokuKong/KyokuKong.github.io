@@ -5088,6 +5088,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"media-captions@npm:^1.0.1":
+  version: 1.0.2
+  resolution: "media-captions@npm:1.0.2"
+  checksum: 4154e5c9b867cba19cecc2857d2aef712c3db6313b3a836a24096153cdc4a3a1500d7ce41050af9db2166e7bf2ba2790c57d6ddf9cd387da398a2ebf3c7fc2d8
+  languageName: node
+  linkType: hard
+
 "medium-zoom@npm:^1.1.0":
   version: 1.1.0
   resolution: "medium-zoom@npm:1.1.0"
@@ -6739,6 +6746,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"vidstack@npm:1":
+  version: 1.9.6
+  resolution: "vidstack@npm:1.9.6"
+  dependencies:
+    media-captions: "npm:^1.0.1"
+  checksum: 5d333a0373bee853b5cf9622d605ac8bdc1a4197b076dd3f461a4e686ec97ba827a3b275d7e1b1244bb5821889ce3c0ef29e71a778e2e0b870d9bcdcc17ad709
+  languageName: node
+  linkType: hard
+
 "vite@npm:~5.0.0":
   version: 5.0.2
   resolution: "vite@npm:5.0.2"
@@ -7393,6 +7409,7 @@ __metadata:
     hls.js: "npm:^1.4.12"
     less: "npm:^4.2.0"
     sass: "npm:^1.69.5"
+    vidstack: "npm:1"
     vue: "npm:^3.3.8"
     vuepress: "npm:2.0.0-rc.0"
     vuepress-plugin-components: "npm:2.0.0-rc.0"
