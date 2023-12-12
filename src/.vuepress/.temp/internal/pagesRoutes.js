@@ -13,7 +13,7 @@ export const pagesRoutes = [
   ["v-349f3bc1","/utau/install.html",{"d":1700870400000,"l":"2023年11月25日","v":"/assets/images/cover3.jpg","e":"<div class=\"hint-container note\">\n<p class=\"hint-container-title\">注</p>\n<p>本篇文档主要演示在<code>Windows</code>系统下的安装和配置过程，对于Linux用户，你应当知道如何使用Github Release上的Linux预编译版本。\nMacOS我也想讲，奈何买不起Mac（泪目）</p>\n</div>\n<div class=\"hint-container info\">\n<p class=\"hint-container-title\">相关信息</p>\n<p>截止本篇文档最后一次被编辑时的OpenUtau正式发行版本为 <a href=\"https://github.com/stakira/OpenUtau/releases/tag/build%2F0.1.327\" target=\"_blank\" rel=\"noopener noreferrer\">V0.1.327</a> Release。尽管不同版本的操作一般并不会有什么太大的区别，但我仍然建议你优先根据实际情况进行操作。</p>\n<p>如果一直没有跟进版本那么欢迎评论区催更~</p>\n</div>","y":"a","t":"安装OpenUtau","i":"fa-solid fa-download","O":2},[":md"]],
   ["v-092e7941","/utau/pit.html",{"d":1700611200000,"l":"2023年11月22日","v":"/assets/images/cover3.jpg","y":"a","t":"Pit It！","i":"fa-solid fa-wave-square","O":5},[":md"]],
   ["v-569264dc","/utau/plugins.html",{"d":1700611200000,"l":"2023年11月22日","v":"/assets/images/cover3.jpg","y":"a","t":"插件索引","i":"fa-solid fa-plug","O":7},[":md"]],
-  ["v-3a249a67","/utau/resampler.html",{"d":1700611200000,"l":"2023年11月22日","v":"/assets/images/cover3.jpg","y":"a","t":"引擎设置","i":"fa-solid fa-car-battery","O":4},[":md"]],
+  ["v-3a249a67","/utau/resampler.html",{"y":"a","t":"引擎设置","i":"fa-solid fa-car-battery","O":4},[":md"]],
   ["v-93147c58","/utau/skills.html",{"d":1700611200000,"l":"2023年11月22日","v":"/assets/images/cover3.jpg","y":"a","t":"一些调声技巧","i":"fa-solid fa-fill-drip","O":8},[":md"]],
   ["v-3706649a","/404.html",{"y":"p","t":""},[]],
   ["v-e54b5c24","/breakbot/",{"y":"p","t":"Breakbot"},[]],
