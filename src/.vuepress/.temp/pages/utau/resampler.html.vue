@@ -21,6 +21,7 @@
 <p><s>支持冰狼谢谢喵，冰狼宝贝可爱的喵</s></p>
 <p>示例工程为<a href="https://www.bilibili.com/video/BV1t8411j7we" target="_blank" rel="noopener noreferrer">部屋に照らされた光<ExternalLinkIcon/></a>，原作にほしか，UST来自星乃スイ。</p>
 <p>Pit如下：</p>
+<figure><img src="https://img.kyoku.top/20231212175422.png" alt="在OpenUtau中进行了粗略的响度控制" tabindex="0" loading="lazy"><figcaption>在OpenUtau中进行了粗略的响度控制</figcaption></figure>
 </div>
 <div class="hint-container info">
 <p class="hint-container-title">相关信息</p>
@@ -42,7 +43,7 @@
 <p>需要配合wavtool使用，建议使用饴屋的Wavtool系列。</p>
 <p><a href="http://utau2008.xrea.jp/2020/engine/wavtool64.zip" target="_blank" rel="noopener noreferrer">Wavtool64-饴屋p官网配布<ExternalLinkIcon/></a></p>
 <h3 id="doppelter" tabindex="-1"><a class="header-anchor" href="#doppelter" aria-hidden="true">#</a> Doppelter</h3>
-<p>同样由饴屋p开发，原本作为Utau的新默认引擎来开发。</p>
+<p>同样由饴屋p开发，作为Utau的新默认引擎来开发。</p>
 <p>（结果Utau编辑器本身的迭代停在了2013年，20年才发布的Doppelter至今没有等到它开箱附赠的那天，不愧是你啊Ameya。）</p>
 <p>作为纯拼接式引擎，表现非常优秀，可以说是超级万金油，听感比较自然。</p>
 <p><a href="http://utau2008.xrea.jp/2020/engine/doppeltler009.zip" target="_blank" rel="noopener noreferrer">Doppelter009-饴屋p官网配布<ExternalLinkIcon/></a></p>
