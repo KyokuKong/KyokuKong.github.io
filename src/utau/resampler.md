@@ -8,9 +8,9 @@ order: 4
 
 ::: info 什么是引擎？
 
-一般我们将Utau中的重采样器称为**引擎**（**engine**），因为重采样器实际上承载了音频的拉伸变形处理等等主要功能，而Utau中的Wavtool则负责将重采样器处理过的音频进行合并。
+一般我们将Utau中的重采样器和拼接合成器称为**引擎**（**engine**），重采样器（Resampler）承载了音频的拉伸变形处理等等主要功能，而拼接合成器（Wavtool）则负责将重采样器处理过的音频进行合并。
 
-如Moresampler这样的引擎同时包含了wavtool的功能，请在使用时将wavtool也指定为Moresampler。
+如Moresampler这样的引擎同时包含了resampler和wavtool的功能，请在使用时将wavtool也指定为Moresampler。
 
 :::
 
@@ -52,7 +52,7 @@ Pit如下：
 
 :::
 
-::: info
+::: details 不同的引擎有有什么区别和共同点吗?
 
 Utau本身长期作为音声合成技术更新迭代的承载平台，不同引擎之间的原理相差天差地别。
 
@@ -85,7 +85,7 @@ Utau本身长期作为音声合成技术更新迭代的承载平台，不同引�
 
 ~~（附带的是效果超差的Resampler.exe）~~
 
-比较老牌的引擎，中高频表现尚可，声噪偏大。
+比较有年头的引擎，中频表现尚可，高频失真明显，声噪偏大。
 
 [Fresamp14-饴屋p官网配布](http://utau2008.xrea.jp/downloads/fresamp014.zip)
 
@@ -105,7 +105,7 @@ Utau本身长期作为音声合成技术更新迭代的承载平台，不同引�
 
 （结果Utau编辑器本身的迭代停在了2013年，20年才发布的Doppelter至今没有等到它开箱附赠的那天，不愧是你啊Ameya。）
 
-作为纯拼接式引擎，表现非常优秀，可以说是超级万金油，听感比较自然。
+作为纯拼接式引擎，表现优秀，可以说是万金油，听感比较自然。
 
 [Doppelter009-饴屋p官网配布](http://utau2008.xrea.jp/2020/engine/doppeltler009.zip)
 
@@ -119,4 +119,84 @@ Utau本身长期作为音声合成技术更新迭代的承载平台，不同引�
 
 由 Kanru Hua 开发的建模式引擎。
 
-Moresampler以及其代表性的LLSM技术可以说宣告了这一代歌声合成技术探索的华丽结尾，Mores是一个近乎六边形的合成引擎，有着根本摸不到边的上限。
+Moresampler以及其代表性的LLSM技术可以说宣告了这一代歌声合成技术探索的华丽结尾，Mores是一个近乎六边形的合成引擎，有着摸不到边的上限。
+
+人声饱满清晰，细节还原度高，张力效果好，高频略少但是可以通过flag适当补足。
+
+有大量独占的好用优秀flag，可以用全局flag改变音色。
+
+缺点是遇到首次合成的采音时需要生成一遍llsm模型（有些声库已经自带了），速度偏慢。即便是生成过模型后合成速度也属于稍慢的一类，对低性能cpu设备压力很大。
+
+比较吃录音质量，对于录音差的声库效果会不那么理想。
+
+可以说是Utau框架下的引擎中渲染质量最接近商业方案（如Vocaloid）的。
+
+由于Kanru Hua已经毕业，而原配布页面在其UIUC校内博客上，现已不能访问，只能提供UtaForum上的授权镜像链接。
+
+[UtaFourm](https://utaforum.net/threads/moresampler-0-8-4-download.19264/)
+
+::: details 关于Kanru Hua?
+
+Well，如果你有经常关注过SVS技术发展，那么你肯定会对Kanru Hua这个名字感到眼熟。
+
+如果这样你还没想起来这是谁，他曾用的网名是**SleepWalking**，本名**华侃如**，现在是Synthsizer V的开发者兼创始人。
+
+Moresampler的起步源自他很早以前参与的Rocaloid/RUCE项目，最初致力于让Miku可以唱出中文。
+
+<BiliBili bvid="BV1ix411F7NZ"/>
+
+这就是，梦开始的地方。
+
+Rocaloid在项目停止之前总共进行过三次迭代，最终发布了可供Utau使用的RUCE引擎，这一引擎已经具有了建模引擎的特点，会生成.rudb模型文件，专攻中文单独音声库。
+
+不久之后，SleepWalking就发布了Moresampler，这也是他探索音声合成技术的第四次迭代。
+
+而Synthsizer V中的V正是罗马数字5，他一直都没有忘记一开始的那个梦想。他真的，我哭死.jpg
+
+<BiliBili bvid="BV1Yt411k7bt"/>
+
+实际上SynthV在早先的Std版本并没有脱离Utau的框架，SynthV的架构实质上是在Moresampler这一重采样器的技术基础上加以神经网络模型替换掉Utau框架下的Wavtool拼接合成引擎，也就是采样+AI模型的架构，在当时音声合成的AI模型技术尚未发展成熟的时候实现了极为优秀的效果。直到SynthV AI更新后才重采样引擎这一技术才算是真正成为了历史。
+
+:::
+
+### Worldline
+
+![ ](https://img.kyoku.top/worldliner.webp){width=80%}
+
+<audio controls="controls">
+    <source src="https://img.kyoku.top/WorldlineRPreview_Track3_Track3_Track3.ogg" type="audio/ogg">
+</audio>
+
+OpenUtau自带的极为神秘的重采样器，基于WORLD算法的建模引擎，中频表现出色，可以合成出比较扎实的人声，但是中高频分布夸张，高频有一定失真，比较依赖混音补正。
+
+由于很新所以比较难找他的资料，使用尚需自己多摸索。
+
+合成速度非常非常快，配合OpenUtau会让人有种在用Vocaloid的错觉（）
+
+OpenUtau自带，无需下载。
+
+### TIPS
+
+![ ](https://img.kyoku.top/tips.webp){width=80%}
+
+<audio controls="controls">
+    <source src="https://img.kyoku.top/TIPSPreview_Track3_Track3_Track3_Track3_Track3.ogg" type="audio/ogg">
+</audio>
+
+ScientistB开发的老牌建模系重采样器，性能优秀，据说也是World算法，由于年代太久加上很多资料佚失已经难以考证了，不过听感确实非常接近world系引擎的表现。
+
+合成效果比较柔和，人声中频饱满度略差于Moresampler，但是中低频表现更加优秀，比Moresampler更适合用来制作装饰效果（如怒声，气泡音等），经常和Moresampler组合使用（需要开启Moresampler的重采样器兼容）。
+
+[ScientistB官网配布](http://scientistb.web.fc2.com/program/TIPS.zip)
+
+### tn_fnds
+
+![ ](https://img.kyoku.top/tn_fnds.webp){width=80%}
+
+<audio controls="controls">
+    <source src="https://img.kyoku.top/tn_fndsPreview_Track3_Track3_Track3_Track3.ogg" type="audio/ogg">
+</audio>
+
+由Zteer开发，同样是基于World算法的建模系引擎，是有着独特风味的重采样器，人声沙哑有一点底噪，但是模糊的恰到好处，很适合一些感情色调明显的歌曲。
+
+[Zteer官网配布](http://z-server.game.coocan.jp/utau/tn_fnds009.zip)

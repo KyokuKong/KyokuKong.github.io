@@ -41,6 +41,8 @@ Utau/泛音声合成社区能有如今的繁盛，有赖于每一位给后来人
 
 [（转载）【UTAU】历代几乎所有引擎和Flag的介绍和使用说明](https://blog.uselessbug.tk/2020/utau-flag-article-bak/) Blog / 原作Bilibili@TKK 2020-07-19
 
+[UTAU合成器简介(2015-10-14)](http://hashbin.lofter.com/post/496daa_5f2e3f2) Lofter@hashbin/Bilibili[@3JF](https://space.bilibili.com/3240126)
+
 ## 引擎相关
 
 ## 超方便小工具

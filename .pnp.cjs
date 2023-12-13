@@ -31,6 +31,7 @@ const RAW_RUNTIME_STATE =
           ["aplayer", "npm:1.10.1"],\
           ["hls.js", "npm:1.4.12"],\
           ["less", "npm:4.2.0"],\
+          ["plyr", "npm:3.7.8"],\
           ["sass", "npm:1.69.5"],\
           ["vidstack", "npm:1.9.6"],\
           ["vue", "virtual:4c2943d1f727866078dc6773e62613aeb00e91b85f47117a46ca2be8f82c6942ffcd2fcb6e17b6d473feb6033c80c7c3a3bb56278a273fa308ebc7a3de851caf#npm:3.3.8"],\
@@ -4940,6 +4941,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["core-js", [\
+      ["npm:3.34.0", {\
+        "packageLocation": "./.yarn/unplugged/core-js-npm-3.34.0-8debcb197b/node_modules/core-js/",\
+        "packageDependencies": [\
+          ["core-js", "npm:3.34.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["core-js-compat", [\
       ["npm:3.33.3", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/core-js-compat-npm-3.33.3-3461218e42-10c0.zip/node_modules/core-js-compat/",\
@@ -5008,6 +5018,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/csstype-npm-3.1.2-cead7d99b2-10c0.zip/node_modules/csstype/",\
         "packageDependencies": [\
           ["csstype", "npm:3.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["custom-event-polyfill", [\
+      ["npm:1.0.7", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/custom-event-polyfill-npm-1.0.7-629381795b-10c0.zip/node_modules/custom-event-polyfill/",\
+        "packageDependencies": [\
+          ["custom-event-polyfill", "npm:1.0.7"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6627,6 +6646,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["loadjs", [\
+      ["npm:4.2.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/loadjs-npm-4.2.0-dfba99077d-10c0.zip/node_modules/loadjs/",\
+        "packageDependencies": [\
+          ["loadjs", "npm:4.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["locate-path", [\
       ["npm:5.0.0", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/locate-path-npm-5.0.0-46580c43e4-10c0.zip/node_modules/locate-path/",\
@@ -7393,6 +7421,20 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["plyr", [\
+      ["npm:3.7.8", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/plyr-npm-3.7.8-8418ffb1ac-10c0.zip/node_modules/plyr/",\
+        "packageDependencies": [\
+          ["plyr", "npm:3.7.8"],\
+          ["core-js", "npm:3.34.0"],\
+          ["custom-event-polyfill", "npm:1.0.7"],\
+          ["loadjs", "npm:4.2.0"],\
+          ["rangetouch", "npm:2.0.1"],\
+          ["url-polyfill", "npm:1.1.12"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["pngjs", [\
       ["npm:5.0.0", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/pngjs-npm-5.0.0-e8ba79f838-10c0.zip/node_modules/pngjs/",\
@@ -7544,6 +7586,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["randombytes", "npm:2.1.0"],\
           ["safe-buffer", "npm:5.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["rangetouch", [\
+      ["npm:2.0.1", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/rangetouch-npm-2.0.1-b22e78bc49-10c0.zip/node_modules/rangetouch/",\
+        "packageDependencies": [\
+          ["rangetouch", "npm:2.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8638,6 +8689,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["url-polyfill", [\
+      ["npm:1.1.12", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/url-polyfill-npm-1.1.12-e2d0ac4086-10c0.zip/node_modules/url-polyfill/",\
+        "packageDependencies": [\
+          ["url-polyfill", "npm:1.1.12"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["util-deprecate", [\
       ["npm:1.0.2", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/util-deprecate-npm-1.0.2-e3fe1a219c-10c0.zip/node_modules/util-deprecate/",\
@@ -9017,7 +9077,7 @@ const RAW_RUNTIME_STATE =
           ["dashjs", null],\
           ["hls.js", "npm:1.4.12"],\
           ["mpegts.js", null],\
-          ["plyr", null],\
+          ["plyr", "npm:3.7.8"],\
           ["qrcode", "npm:1.5.3"],\
           ["sass-loader", null],\
           ["vidstack", "npm:1.9.6"],\
@@ -9699,6 +9759,7 @@ const RAW_RUNTIME_STATE =
           ["aplayer", "npm:1.10.1"],\
           ["hls.js", "npm:1.4.12"],\
           ["less", "npm:4.2.0"],\
+          ["plyr", "npm:3.7.8"],\
           ["sass", "npm:1.69.5"],\
           ["vidstack", "npm:1.9.6"],\
           ["vue", "virtual:4c2943d1f727866078dc6773e62613aeb00e91b85f47117a46ca2be8f82c6942ffcd2fcb6e17b6d473feb6033c80c7c3a3bb56278a273fa308ebc7a3de851caf#npm:3.3.8"],\

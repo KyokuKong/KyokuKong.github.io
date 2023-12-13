@@ -20,6 +20,7 @@
 <p><a href="https://www.bilibili.com/read/cv1007842/" target="_blank" rel="noopener noreferrer">UTAU日记- Moresampler<ExternalLinkIcon/></a> Bilibili<a href="https://space.bilibili.com/8130109" target="_blank" rel="noopener noreferrer">@jerrybowang<ExternalLinkIcon/></a> 2018-08-21</p>
 <p><a href="https://www.bilibili.com/read/cv5278153/" target="_blank" rel="noopener noreferrer">UTAU日记-渐变，拉伸，与合成<ExternalLinkIcon/></a> Bilibili<a href="https://space.bilibili.com/8130109" target="_blank" rel="noopener noreferrer">@jerrybowang<ExternalLinkIcon/></a> 2020-03-25</p>
 <p><a href="https://blog.uselessbug.tk/2020/utau-flag-article-bak/" target="_blank" rel="noopener noreferrer">（转载）【UTAU】历代几乎所有引擎和Flag的介绍和使用说明<ExternalLinkIcon/></a> Blog / 原作Bilibili@TKK 2020-07-19</p>
+<p><a href="http://hashbin.lofter.com/post/496daa_5f2e3f2" target="_blank" rel="noopener noreferrer">UTAU合成器简介(2015-10-14)<ExternalLinkIcon/></a> Lofter@hashbin/Bilibili<a href="https://space.bilibili.com/3240126" target="_blank" rel="noopener noreferrer">@3JF<ExternalLinkIcon/></a></p>
 <h2 id="引擎相关" tabindex="-1"><a class="header-anchor" href="#引擎相关" aria-hidden="true">#</a> 引擎相关</h2>
 <h2 id="超方便小工具" tabindex="-1"><a class="header-anchor" href="#超方便小工具" aria-hidden="true">#</a> 超方便小工具</h2>
 <h2 id="配布站" tabindex="-1"><a class="header-anchor" href="#配布站" aria-hidden="true">#</a> 配布站</h2>
