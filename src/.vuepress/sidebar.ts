@@ -30,5 +30,12 @@ export default sidebar({
       prefix: "breakbot/",
       children: "structure",
     },
+    {
+      text: "Soliduty学习笔记",
+      collapsible: "true",
+      icon: "computer",
+      prefix: "solidity/",
+      children: "structure",
+    }
   ],
 });
