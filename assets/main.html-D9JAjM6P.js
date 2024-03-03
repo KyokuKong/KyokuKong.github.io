@@ -1,1 +1,0 @@
-import{_ as t}from"./plugin-vue_export-helper-DlAUqK2U.js";import{o,c as n,a as e}from"./app-Bgmo4bOy.js";const _={},c=e("p",null,"很显然，这个分类里会存放一些我的小小心得或者一些其他的乱七八糟的东西，以及一些学东西的笔记和随想，还有一些奇奇怪怪的小研究。",-1),s=e("p",null,"如果这里面的东西能够帮到你，我不胜荣幸。",-1),a=[c,s];function r(l,i){return o(),n("div",null,a)}const f=t(_,[["render",r],["__file","main.html.vue"]]);export{f as default};
