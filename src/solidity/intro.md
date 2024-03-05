@@ -56,3 +56,27 @@ pragma solidity >=0.4.16 <0.9.0;
 ```solidity
 pragma solidity ^0.5.2; // 这样的标识意味着编译器版本可以在0.5.2和0.6.0之间
 ```
+
+### 合约结构
+#### 合约
+
+solidity中的`合约（Contract）`近似于其他语言中`类（class）`的概念。
+
+合约以`contract`关键字起始，通过花括号包裹合约的内容来标识层级关系。
+
+```solidity
+contract BaseContract {}
+```
+
+可以通过is关键字来声明一个合约是从另一个合约继承的，并且solidity的继承特性和python非常相似，支持多重继承：
+
+```solidity
+contract ContractA is MotherContract {
+    // ...
+}
+
+
+contract ContractB is MotherContract, FatherContract {
+    // ...
+}
+```
