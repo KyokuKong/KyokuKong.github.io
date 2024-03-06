@@ -2,7 +2,7 @@
 title: Solidity？
 cover: /assets/images/cover3.jpg
 icon: fa-solid fa-dumbbell
-date: 2024-03-02
+date: 2024-03-06
 ---
 
 因为参加了学校的区块链竞赛，于是需要学习一下以太坊平台的智能合约写法，sadly，这个语言相当有一点独特，于是特开了一点文档记录一下学习的过程。
@@ -80,3 +80,15 @@ contract ContractB is MotherContract, FatherContract {
     // ...
 }
 ```
+
+::: tip
+
+不建议多重继承，类似Python，多重继承会让代码关系变得过于复杂，所以只在必要的时候使用吧。
+
+:::
+
+#### 状态变量
+
+> 状态变量是永久地存储在合约存储中的值。
+
+类似于Python中声明变量的操作，但是Solidity本身是一种静态类型的语言，需要显式的声明变量和对应的类型。
