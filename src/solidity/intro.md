@@ -91,4 +91,25 @@ contract ContractB is MotherContract, FatherContract {
 
 > 状态变量是永久地存储在合约存储中的值。
 
-类似于Python中声明变量的操作，但是Solidity本身是一种静态类型的语言，需要显式的声明变量和对应的类型。
+类似于Python中声明变量的操作，但是Solidity本身是一种静态类型的语言，需要显式的声明变量对应的类型。
+
+```solidity
+contract TinyStorage {
+    uint storedXlbData;
+    // ...
+}
+```
+
+作为一门针对合约设计的语言，Solidity不允许变量的值为undefined或者null、None这样的空值。在声明变量的时候事实上会先给变量赋予一个默认值，如当变量类型为`Bool`时，默认值为`false`，详情参考[作用域和声明](https://learnblockchain.cn/docs/solidity/control-structures.html#default-value)。
+
+Solidity预置了如下的变量类型：
+
+|类型|范围|
+|--|--|
+|intx|无符号整型，上限2的x次方|
+|unitx|有符号整型，上限2的x次方|
+|bool|布尔类型|
+|address|地址类型，保存一个二十字节的地址|
+|bytesx|定长字节数组，x为字节位数|
+
+同样的，Solidity支持字面形式的常量使用（类似大多数编程语言）
