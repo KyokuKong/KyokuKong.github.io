@@ -178,3 +178,10 @@ contract Simple {
 - 使用包含某些操作码的内联汇编。
 
 另外的，Solidity还为一些特殊用途设计了一些特殊函数，详见[特别的函数](https://learnblockchain.cn/docs/solidity/contracts.html#special-functions)。
+
+#### 事件 
+
+> 事件是能方便地调用以太坊虚拟机日志功能的接口。Solidity 事件是EVM的日志功能之上的抽象。 应用程序可以通过以太坊客户端的RPC接口订阅和监听这些事件。
+
+事件晚点再写，疑似有点太抽象了。
+
