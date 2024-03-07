@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper-DlAUqK2U.js";import{o as t,c}from"./app-DLvi4G5T.js";const o={};function r(s,_){return t(),c("div")}const a=e(o,[["render",r],["__file","skills.html.vue"]]);export{a as default};
