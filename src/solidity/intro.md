@@ -113,3 +113,68 @@ Solidity预置了如下的变量类型：
 |bytesx|定长字节数组，x为字节位数|
 
 同样的，Solidity支持字面形式的常量使用（类似大多数编程语言）
+
+#### 函数
+
+> 函数是代码的可执行单元。函数通常在合约内部定义，但也可以在合约外定义。
+
+一起来实现一个简单的函数：
+
+```solidity
+contract Simple {
+    uint sum;   // 定义一个有符号整型变量sum
+    function taker (uint a, uint b) public {
+        // 定义函数taker，函数有两个有符号整型内部变量a和b，可以被外部访问
+        sum = a + b;    // 将a和b的和赋值给sum
+    }
+}
+```
+
+在函数有返回值的时候，我们需要用`returns`关键字来显式的指定函数返回了什么。
+
+```solidity
+contract Simple {
+    function arithmetic(uint a, uint b)
+    public
+    pure
+    returns (uint sum, uint product) {
+        sum = a + b;
+        product = a * b;
+        // 如果觉得打一遍变量名很麻烦，也可以这么写
+        // return (a + b,a * b);
+    }
+}
+```
+
+::: info 注
+
+如果使用 `return` 提前退出有返回值的函数， 必须在用 `return` 时提供返回值。
+
+:::
+
+类似于Java和C#，Solidity也可以对函数赋予类型修饰关键字。
+
+在Solidity中，还有`view`（视图函数）和`pure`（纯函数）两种类型的函数。
+
+对于视图函数`view`修饰的函数，要保证这个函数的状态不被修改，也就是说，视图函数只能在本地运行（不消耗gas），它可以被读取状态但是不能被修改状态。
+
+这些操作会被视为修改了函数的状态：
+
+- 修改状态变量。
+- 产生事件。
+- 创建其它合约。
+- 使用 selfdestruct。
+- 通过调用发送以太币。
+- 调用任何没有标记为 view 或者 pure 的函数。
+- 使用低级调用。
+- 使用包含特定操作码的内联汇编。
+
+而纯函数`pure`修饰的函数则是在`view`的基础上，需要保证不读取也不修改函数的状态，也就是说要在前面的列表中再加几项：
+
+- 读取状态变量。
+- 访问 address(this).balance 或者 \<address\>.balance。
+- 访问 block，tx， msg 中任意成员 （除 msg.sig 和 msg.data 之外）。
+- 调用任何未标记为 pure 的函数。
+- 使用包含某些操作码的内联汇编。
+
+另外的，Solidity还为一些特殊用途设计了一些特殊函数，详见[特别的函数](https://learnblockchain.cn/docs/solidity/contracts.html#special-functions)。
