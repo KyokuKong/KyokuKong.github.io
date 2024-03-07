@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-DlAUqK2U.js";import{o as t,c}from"./app-C37a-2aC.js";const o={};function r(_,s){return t(),c("div")}const n=e(o,[["render",r],["__file","flags.html.vue"]]);export{n as default};
