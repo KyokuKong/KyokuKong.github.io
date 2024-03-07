@@ -31,7 +31,7 @@ export default sidebar({
       children: "structure",
     },
     {
-      text: "Solidity学习笔记",
+      text: "区块链学习笔记",
       collapsible: "true",
       icon: "computer",
       prefix: "solidity/",
