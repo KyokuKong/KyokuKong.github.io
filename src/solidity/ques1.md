@@ -140,3 +140,75 @@ function has(①, address account) ② returns (bool) {
 
 哎，做题是真的烦，想回去睡觉。感觉一天睡25个小时都还是困，比完了我要睡一星期🛌。
 挨个做吧。
+
+~~后记：虽然还没比，但是睡爽了，精力回归！~~
+
+
+## 1.食品信息（FoodInfoItem）的接口编码
+
+### 题（1）
+
+这部分主要是初始化一些会在接下来的程序中用到的变量。
+
+根据前面表格中数据可得应填入：
+
+```solidity
+contract FoodInfoItem {
+    uint[] _timestamp;
+    string _traceName;
+    address _traceAddress;
+    uint8 _traceQuality;
+    string _name;
+    string _currentTraceName;
+    uint8 _quality;
+    uint8 _status;
+
+    address _owner;
+}
+```
+
+### 题（2）
+
+```solidity
+function addTraceInfoByDistributor(①, uint8 quality) public returns(bool) {
+        require(_status == 0 , "status must be producing");
+        //②
+        _timestamp.push(now);
+        _traceName.push(traceName);
+        _currentTraceName = traceName;
+        //③
+        //④
+        _traceQuality.push(_quality);
+        _status = 1;
+        return true;
+    }
+```
+
+根据函数名和题目可得，这是一个通过**分销商**`Distributor`渠道向链上添加信息的函数，此时需要的传入的内容应该包括分销商的**地址**和产品的**质量**（其他变量可以直接通过环境传入）
+故：
+
+```solidity
+// 需要传入的变量还有分销商的地址，故在函数定义中的①部分中传入
+function addTraceInfoByDistributor(address distributor, string memory traceName, uint8 quality) public returns(bool) {
+        require(_status == 0 , "status must be producing");
+
+        //②的位置需要一个检查，确保只有链的所有者可以上传信息，所以通过msg.sender来确认发送者
+        require(msg.sender == _owner, "Only the owner can add trace info");
+
+        _timestamp.push(now);
+        _traceName.push(traceName);
+        _currentTraceName = traceName;
+
+        //③处需要传入产品的分销商的信息
+        _traceDistributor.push(distributor);
+
+        //④处需要传入产品的质量信息
+        _quality = quality;
+
+        _traceQuality.push(_quality);
+        _status = 1;
+        return true;
+    }
+```
+
+### 题（3）
