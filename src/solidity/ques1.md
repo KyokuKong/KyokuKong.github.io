@@ -148,6 +148,8 @@ function has(①, address account) ② returns (bool) {
 
 ### 题（1）
 
+（1）编写食品溯源智能合约生产商Producer添加食品接口，必须生产商才能添加可溯源的食品，实现溯源功能；
+
 这部分主要是初始化一些会在接下来的程序中用到的变量。
 
 根据前面表格中数据可得应填入：
@@ -169,6 +171,8 @@ contract FoodInfoItem {
 
 ### 题（2）
 
+（2）编写分销商食品上链信息接口，根据食品溯源智能合约地址获取分销商上链食品的信息； 
+
 ```solidity
 function addTraceInfoByDistributor(①, uint8 quality) public returns(bool) {
         require(_status == 0 , "status must be producing");
@@ -188,12 +192,12 @@ function addTraceInfoByDistributor(①, uint8 quality) public returns(bool) {
 故：
 
 ```solidity
-// 需要传入的变量还有分销商的地址，故在函数定义中的①部分中传入
+// 需要传入的变量还有分销商的地址和当前用户的名称，故在函数定义中的①部分中传入
 function addTraceInfoByDistributor(address distributor, string memory traceName, uint8 quality) public returns(bool) {
         require(_status == 0 , "status must be producing");
 
         //②的位置需要一个检查，确保只有链的所有者可以上传信息，所以通过msg.sender来确认发送者
-        require(msg.sender == _owner, "Only the owner can add trace info");
+        require(msg.sender == _owner, "Only constant owner can invoke");
 
         _timestamp.push(now);
         _traceName.push(traceName);
@@ -212,3 +216,73 @@ function addTraceInfoByDistributor(address distributor, string memory traceName,
 ```
 
 ### 题（3）
+
+（3）编写超市进行食品上链信息的接口，根据食品溯源智能合约地址获取超市上链食品信息。
+
+```solidity
+function addTraceInfoByRetailer(①, uint8 quality) public returns(bool) {
+        require(_status == 1 , "status must be distributing");
+        //②
+        _timestamp.push(now);
+        _traceName.push(traceName);
+        _currentTraceName = traceName;
+        //③
+        //④
+        _traceQuality.push(_quality);
+        _status = 2;
+        return true;
+}
+```
+既然也是要上链，自然是要先传入当前的使用用户和溯源过程中超市的地址，所以还是：
+
+```solidity
+// ①传入超市的地址和用户名
+function addTraceInfoByRetailer(address retailer, string traceNumber, uint8 quality) public returns(bool) {
+    require(_status == 1, "status must be distributing");
+    
+    // ②代码中没有检测所有权的部分，所以这里首先应该验证操作者是否具有合约的所有权
+    require(_owner == msg.sender, "only constant owner can invoke");
+
+    _timestamp.push(now);
+    _traceName.push(traceName);
+    _currentTraceName = traceName;
+
+    // ③函数中还没有做的事情是将超市的地址推送上链，所以执行一下这步
+    _traceAddress.push(retailer);
+
+    // ④后面的代码中使用了_quality传入链中，所以这里我们传入一下这个值
+    _quality = quality;
+
+    _traceQuality.push(_quality);
+    _status = 2;
+    return true;
+}
+```
+
+## 3
+
+### 题（3）
+
+（3）编写食品溯源智能合约超市Retailer添加食品接口，必须超市才能添加可溯源的食品，实现溯源功能。
+
+```solidity
+function addTraceInfoByRetailer(①, uint8 quality)
+	public ② returns(bool) {
+            require(③, "traceNumber does not exist");
+            return FoodInfoItem(foods[traceNumber]).④, quality);
+        }
+```
+
+因为是实现添加溯源信息功能，传入当前用户的名称和合约超市的地址：
+
+```solidity
+// ①的位置传入用户名和食品溯源的id,②的位置则onlyRetailer来限制合约的使用权限
+function addTraceInfoByRetailer(string traceName, string traceNumber, uint8 quality) public onlyRetailer returns(bool) {
+
+    //③检测traceNumber是否存在
+    require(foods[traceNumber] == address(0), "traceNumber does not exist");
+
+    //④的位置
+    return FoodInfoItem(food[traceNumber]).addTraceInfoByRetailer(traceName, msg.sender, quality)
+}
+```
