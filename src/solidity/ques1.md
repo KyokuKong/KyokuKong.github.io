@@ -259,7 +259,11 @@ function addTraceInfoByRetailer(address retailer, string traceNumber, uint8 qual
 }
 ```
 
-## 3
+## 2.食品溯源(Trace)的接口编码
+
+### 题（1）
+
+
 
 ### 题（3）
 
