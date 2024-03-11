@@ -263,6 +263,45 @@ function addTraceInfoByRetailer(address retailer, string traceNumber, uint8 qual
 
 ### 题（1）
 
+（1）编写食品溯源智能合约生产商Producer添加食品接口，必须生产商才能添加可溯源的食品，实现溯源功能；
+
+```solidity
+function newFood(①, string traceName, uint8 quality)
+	public ② returns(③)
+        {
+            //④
+            //⑤
+            //⑥
+            //⑦
+            //⑧
+        }
+```
+
+草了，怎么突然糊出来一大块要我填。
+
+首先自然还是要看题，它要求只有生产商才能添加可溯源的食品，并且这里要求我们添加食品，那么①和②两个空大致就知道怎么去填入了。
+
+然后，添加新的食品也就需要给这个食品分一个新的地址，所以这个函数返回的值也就应该是生成的新地址。
+
+```solidity
+// 不得不说solidity这个语法是真的丑，定语全都堆在函数定义里面
+// ①中自然是填入食品的名称和溯源用的id，而根据题目可以知道②是要求只有生产商可以访问这个函数，而函数返回的值应该是新食品的地址
+function newFood(string name, uint256 traceNumber, string traceName, uint8 quality) public onlyProducer returns(address) {
+    // 反正四五六七八都是在一块，只是告诉你要用五行代码罢了（
+    // 思路上来讲，要做的无非是以下这些：
+    // 1.验证溯源id
+    // 2.实例化新的食品对象
+    // 3.将新的食品对象传入foods
+    // 4.推送
+    // 所以大致上就是一条条写
+    require(foods[traceNumber] == address(0), "traceNumber already exist");
+    FoodInfoItem food = new FoodInfoItem(name, traceName, quality, msg.sender);
+    foods[traceNumber] = food;
+    foodList.push(traceNumber);
+    return food;
+}
+```
+
 
 
 ### 题（3）
